@@ -1,0 +1,15 @@
+BAREC Batch Simplification -- Cost Report
+=============================================
+Model:                gemini-3.1-pro-preview
+Mode:                 Batch API (async, 50% off interactive rate)
+Rows submitted:       100
+Rows succeeded:       100
+Rows failed:          0
+---------------------------------------------
+Total prompt tokens:  319,927
+Total output tokens:  775,289 (includes thinking tokens)
+Rate (input/output):  $1.0/M -- $6.0/M
+---------------------------------------------
+TOTAL COST:           $4.9717
+Avg. cost / sentence: $0.049717
+=============================================
