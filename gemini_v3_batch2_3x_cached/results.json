@@ -1,0 +1,5810 @@
+[
+  {
+    "ID": "10100290023",
+    "original sentence": "سوف أقدم في هذا الباب مواد جديدة.",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3179,
+    "cached_tokens": 3167,
+    "output_tokens": 2838,
+    "cost_usd": 0.017673,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "أقدم مواد جديدة في هذا الباب."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100290023",
+    "original sentence": "سوف أقدم في هذا الباب مواد جديدة.",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3179,
+    "cached_tokens": 3167,
+    "output_tokens": 2838,
+    "cost_usd": 0.017673,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أنا أعرض معلومات جديدة في هذا القسم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100290023",
+    "original sentence": "سوف أقدم في هذا الباب مواد جديدة.",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3179,
+    "cached_tokens": 3167,
+    "output_tokens": 2838,
+    "cost_usd": 0.017673,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "في هذا الجزء، أقدم لكم مواد جديدة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100330027",
+    "original sentence": "وفي مركز العصابة ...",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3173,
+    "cached_tokens": 3167,
+    "output_tokens": 2348,
+    "cost_usd": 0.014727,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "وفي مكان العصابة..."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100330027",
+    "original sentence": "وفي مركز العصابة ...",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3173,
+    "cached_tokens": 3167,
+    "output_tokens": 2348,
+    "cost_usd": 0.014727,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "وداخل مركز العصابة..."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100330027",
+    "original sentence": "وفي مركز العصابة ...",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3173,
+    "cached_tokens": 3167,
+    "output_tokens": 2348,
+    "cost_usd": 0.014727,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "وهناك في مقر العصابة..."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100330131",
+    "original sentence": "لكن توجد معلومات عنها..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3175,
+    "cached_tokens": 3167,
+    "output_tokens": 6541,
+    "cost_usd": 0.039887,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "تتوفر معلومات عنها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100330131",
+    "original sentence": "لكن توجد معلومات عنها..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3175,
+    "cached_tokens": 3167,
+    "output_tokens": 6541,
+    "cost_usd": 0.039887,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "نجد معلومات عنها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100330131",
+    "original sentence": "لكن توجد معلومات عنها..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3175,
+    "cached_tokens": 3167,
+    "output_tokens": 6541,
+    "cost_usd": 0.039887,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "نحن نملك معلومات عنها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100350011",
+    "original sentence": "ولم يستطع أحد الإجابة على كل الأسئلة..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3182,
+    "cached_tokens": 3167,
+    "output_tokens": 4032,
+    "cost_usd": 0.02484,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "عجز الجميع عن إجابة كل الأسئلة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100350011",
+    "original sentence": "ولم يستطع أحد الإجابة على كل الأسئلة..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3182,
+    "cached_tokens": 3167,
+    "output_tokens": 4032,
+    "cost_usd": 0.02484,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "فشل كل شخص في حل جميع الأسئلة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100350011",
+    "original sentence": "ولم يستطع أحد الإجابة على كل الأسئلة..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3182,
+    "cached_tokens": 3167,
+    "output_tokens": 4032,
+    "cost_usd": 0.02484,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "ترك كل واحد بعض الأسئلة بدون إجابة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100350032",
+    "original sentence": "واستطاعت الضفدعة أن تقفز وتنجو بفضل صبرها وشجاعتها.",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3192,
+    "cached_tokens": 3167,
+    "output_tokens": 2957,
+    "cost_usd": 0.0184,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "قفزت الضفدعة ونجت بسبب صبرها وشجاعتها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100350032",
+    "original sentence": "واستطاعت الضفدعة أن تقفز وتنجو بفضل صبرها وشجاعتها.",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3192,
+    "cached_tokens": 3167,
+    "output_tokens": 2957,
+    "cost_usd": 0.0184,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "قدرت الضفدعة أن تقفز وتعيش بفضل الشجاعة والصبر."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100350032",
+    "original sentence": "واستطاعت الضفدعة أن تقفز وتنجو بفضل صبرها وشجاعتها.",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3192,
+    "cached_tokens": 3167,
+    "output_tokens": 2957,
+    "cost_usd": 0.0184,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "استطاعت الضفدعة أن تقفز وتنجو بشجاعتها وصبرها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100370050",
+    "original sentence": "قال جحا: -أنت لم تدرب الفأر على الطريق..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3185,
+    "cached_tokens": 3167,
+    "output_tokens": 4812,
+    "cost_usd": 0.029523,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "قال جحا: أنت أهملت تدريب الفأر على الطريق."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100370050",
+    "original sentence": "قال جحا: -أنت لم تدرب الفأر على الطريق..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3185,
+    "cached_tokens": 3167,
+    "output_tokens": 4812,
+    "cost_usd": 0.029523,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "قال جحا: أنت تركت تدريب الفأر على الطريق."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100370050",
+    "original sentence": "قال جحا: -أنت لم تدرب الفأر على الطريق..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3185,
+    "cached_tokens": 3167,
+    "output_tokens": 4812,
+    "cost_usd": 0.029523,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "قال جحا: أنت نسيت أن تدرب الفأر على الطريق."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100390042",
+    "original sentence": "قال لها: اذهبي إلى أم جميل بنت الخطاب، فاسأليها عنه،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3187,
+    "cached_tokens": 3167,
+    "output_tokens": 2760,
+    "cost_usd": 0.017213,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "قال لها: اذهبي إلى أم جميل بنت الخطاب واسأليها عنه."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100390042",
+    "original sentence": "قال لها: اذهبي إلى أم جميل بنت الخطاب، فاسأليها عنه،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3187,
+    "cached_tokens": 3167,
+    "output_tokens": 2760,
+    "cost_usd": 0.017213,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "قال لها: اذهبي إلى أم جميل بنت الخطاب.",
+      "اسأليها عنه."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100390042",
+    "original sentence": "قال لها: اذهبي إلى أم جميل بنت الخطاب، فاسأليها عنه،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3187,
+    "cached_tokens": 3167,
+    "output_tokens": 2760,
+    "cost_usd": 0.017213,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "طلب منها أن تذهب إلى أم جميل بنت الخطاب وتسألها عنه."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100330037",
+    "original sentence": "لا يا زعيمي غاضب..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3176,
+    "cached_tokens": 3167,
+    "output_tokens": 10066,
+    "cost_usd": 0.061038,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "أنت تقودني.",
+      "أقول لك: أرفض.",
+      "أنا أصرخ."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100330037",
+    "original sentence": "لا يا زعيمي غاضب..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3176,
+    "cached_tokens": 3167,
+    "output_tokens": 10066,
+    "cost_usd": 0.061038,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أكلم الرجل.",
+      "هو يحكمني.",
+      "أرفض ويعلو صوتي."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100330037",
+    "original sentence": "لا يا زعيمي غاضب..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3176,
+    "cached_tokens": 3167,
+    "output_tokens": 10066,
+    "cost_usd": 0.061038,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "أرفض.",
+      "الرجل يقودني ويصرخ."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100410031",
+    "original sentence": "-تعالي هنا يا قردة..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3177,
+    "cached_tokens": 3167,
+    "output_tokens": 5817,
+    "cost_usd": 0.035545,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "أطلب من القردة أن تأتي إلى هنا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100410031",
+    "original sentence": "-تعالي هنا يا قردة..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3177,
+    "cached_tokens": 3167,
+    "output_tokens": 5817,
+    "cost_usd": 0.035545,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أريد من القردة أن تأتي هنا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100410031",
+    "original sentence": "-تعالي هنا يا قردة..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3177,
+    "cached_tokens": 3167,
+    "output_tokens": 5817,
+    "cost_usd": 0.035545,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "أنتِ قردة.",
+      "تعالي هنا."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100820083",
+    "original sentence": "أما الحساء المفضل لديهم فهو ماء يحتوي على خلاصة من ذيل الثور!",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3189,
+    "cached_tokens": 3167,
+    "output_tokens": 5654,
+    "cost_usd": 0.034579,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "يفضلون حساء من الماء وخلاصة ذيل الثور!"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100820083",
+    "original sentence": "أما الحساء المفضل لديهم فهو ماء يحتوي على خلاصة من ذيل الثور!",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3189,
+    "cached_tokens": 3167,
+    "output_tokens": 5654,
+    "cost_usd": 0.034579,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "يحبون هذا الحساء.",
+      "هذا الحساء ماء مع خلاصة من ذيل الثور!"
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100820083",
+    "original sentence": "أما الحساء المفضل لديهم فهو ماء يحتوي على خلاصة من ذيل الثور!",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3189,
+    "cached_tokens": 3167,
+    "output_tokens": 5654,
+    "cost_usd": 0.034579,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يعجبهم حساء من ماء وخلاصة من ذيل الثور!"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100980026",
+    "original sentence": "أما سبب عدم الخشية فهو مختلف تمامًا لكل منهما.",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3183,
+    "cached_tokens": 3167,
+    "output_tokens": 6673,
+    "cost_usd": 0.040687,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "يملك كل واحد منهما سببا مختلفا لعدم الخوف."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100980026",
+    "original sentence": "أما سبب عدم الخشية فهو مختلف تمامًا لكل منهما.",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3183,
+    "cached_tokens": 3167,
+    "output_tokens": 6673,
+    "cost_usd": 0.040687,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "الفرق كبير بينهما في سبب عدم الخوف."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100980026",
+    "original sentence": "أما سبب عدم الخشية فهو مختلف تمامًا لكل منهما.",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3183,
+    "cached_tokens": 3167,
+    "output_tokens": 6673,
+    "cost_usd": 0.040687,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يختلف سبب عدم الخوف بين الاثنين بوضوح."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101160099",
+    "original sentence": "فراح يشجع نفسه قائلًا: ساعة من العذاب، ثم راحة باقي الحياة\".",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3188,
+    "cached_tokens": 3167,
+    "output_tokens": 4286,
+    "cost_usd": 0.02637,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "بدأ يشجع نفسه وقال: أتعذب ساعة وأرتاح بقية حياتي."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101160099",
+    "original sentence": "فراح يشجع نفسه قائلًا: ساعة من العذاب، ثم راحة باقي الحياة\".",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3188,
+    "cached_tokens": 3167,
+    "output_tokens": 4286,
+    "cost_usd": 0.02637,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "شجع نفسه وقال: أتحمل العذاب ساعة واحدة وأرتاح طول العمر."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101160099",
+    "original sentence": "فراح يشجع نفسه قائلًا: ساعة من العذاب، ثم راحة باقي الحياة\".",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3188,
+    "cached_tokens": 3167,
+    "output_tokens": 4286,
+    "cost_usd": 0.02637,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "شجع نفسه.",
+      "قال: العذاب يدوم ساعة والراحة تدوم بقية الحياة."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10101290051",
+    "original sentence": "وراحت الفتاة تقرأ وقالت مذعورة: غاز الهيبون..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3187,
+    "cached_tokens": 3167,
+    "output_tokens": 4728,
+    "cost_usd": 0.029021,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "بدأت الفتاة القراءة، وقالت خائفة: غاز الهيبون."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101290051",
+    "original sentence": "وراحت الفتاة تقرأ وقالت مذعورة: غاز الهيبون..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3187,
+    "cached_tokens": 3167,
+    "output_tokens": 4728,
+    "cost_usd": 0.029021,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "قرأت الفتاة، وقالت بخوف: غاز الهيبون."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101290051",
+    "original sentence": "وراحت الفتاة تقرأ وقالت مذعورة: غاز الهيبون..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3187,
+    "cached_tokens": 3167,
+    "output_tokens": 4728,
+    "cost_usd": 0.029021,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "الفتاة قرأت، وقالت بخوف شديد: غاز الهيبون."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100290015",
+    "original sentence": "في الأعوام السابقة، كنا نكتب عن هواية واحدة، هي هواية جمع طوابع البريد..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3192,
+    "cached_tokens": 3167,
+    "output_tokens": 2193,
+    "cost_usd": 0.013816,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "في الأعوام السابقة، كتبنا عن هواية واحدة، هي هواية جمع طوابع البريد."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100290015",
+    "original sentence": "في الأعوام السابقة، كنا نكتب عن هواية واحدة، هي هواية جمع طوابع البريد..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3192,
+    "cached_tokens": 3167,
+    "output_tokens": 2193,
+    "cost_usd": 0.013816,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "في السنوات الماضية، كتبنا عن هواية واحدة.",
+      "هذه الهواية هي جمع طوابع البريد."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100290015",
+    "original sentence": "في الأعوام السابقة، كنا نكتب عن هواية واحدة، هي هواية جمع طوابع البريد..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3192,
+    "cached_tokens": 3167,
+    "output_tokens": 2193,
+    "cost_usd": 0.013816,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "كتبنا في السنوات الماضية عن هواية واحدة، وهي جمع الطوابع البريدية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100360083",
+    "original sentence": "وكانت هذه هي المرة الأولى التي يحمل فيها ساعة..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3181,
+    "cached_tokens": 3167,
+    "output_tokens": 4910,
+    "cost_usd": 0.030107,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "وحمل ساعة لأول مرة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100360083",
+    "original sentence": "وكانت هذه هي المرة الأولى التي يحمل فيها ساعة..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3181,
+    "cached_tokens": 3167,
+    "output_tokens": 4910,
+    "cost_usd": 0.030107,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "وحمل ساعة في هذه المرة الأولى."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100360083",
+    "original sentence": "وكانت هذه هي المرة الأولى التي يحمل فيها ساعة..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3181,
+    "cached_tokens": 3167,
+    "output_tokens": 4910,
+    "cost_usd": 0.030107,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "حمل ساعة.",
+      "وهذه أول مرة."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100440015",
+    "original sentence": "وبنهاية القرن الخامس عشر، أصبحت الجزر جميعا مأهولة بالسكان،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3188,
+    "cached_tokens": 3167,
+    "output_tokens": 3604,
+    "cost_usd": 0.022278,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "وفي نهاية القرن الخامس عشر، سكن الناس في كل الجزر."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100440015",
+    "original sentence": "وبنهاية القرن الخامس عشر، أصبحت الجزر جميعا مأهولة بالسكان،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3188,
+    "cached_tokens": 3167,
+    "output_tokens": 3604,
+    "cost_usd": 0.022278,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "عاش الناس في جميع الجزر في آخر القرن الخامس عشر."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100440015",
+    "original sentence": "وبنهاية القرن الخامس عشر، أصبحت الجزر جميعا مأهولة بالسكان،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3188,
+    "cached_tokens": 3167,
+    "output_tokens": 3604,
+    "cost_usd": 0.022278,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "ومع نهاية القرن 15، سكن الناس كل الجزر."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100460003",
+    "original sentence": "ولد (برايل) قرب باريس في 4 يناير 1809،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3186,
+    "cached_tokens": 3167,
+    "output_tokens": 4139,
+    "cost_usd": 0.025486,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "حدثت ولادة برايل قرب باريس في 4 يناير عام ألف وثمانمئة وتسعة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100460003",
+    "original sentence": "ولد (برايل) قرب باريس في 4 يناير 1809،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3186,
+    "cached_tokens": 3167,
+    "output_tokens": 4139,
+    "cost_usd": 0.025486,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "بدأ برايل حياته قرب باريس في 4 يناير سنة ألف وثمانمئة وتسعة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100460003",
+    "original sentence": "ولد (برايل) قرب باريس في 4 يناير 1809،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3186,
+    "cached_tokens": 3167,
+    "output_tokens": 4139,
+    "cost_usd": 0.025486,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "جاء برايل إلى العالم قرب باريس في اليوم الرابع من يناير عام ألف وثمانمئة وتسعة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100570061",
+    "original sentence": "لقد نسيت..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3173,
+    "cached_tokens": 3167,
+    "output_tokens": 1049,
+    "cost_usd": 0.006933,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "نسيت."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100570061",
+    "original sentence": "لقد نسيت..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3173,
+    "cached_tokens": 3167,
+    "output_tokens": 1049,
+    "cost_usd": 0.006933,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أنا نسيت."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100570061",
+    "original sentence": "لقد نسيت..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3173,
+    "cached_tokens": 3167,
+    "output_tokens": 1049,
+    "cost_usd": 0.006933,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "نسيت هذا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100570066",
+    "original sentence": "إنه مثير للدهشة",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3175,
+    "cached_tokens": 3167,
+    "output_tokens": 2595,
+    "cost_usd": 0.016211,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "هذا شيء عجيب."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100570066",
+    "original sentence": "إنه مثير للدهشة",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3175,
+    "cached_tokens": 3167,
+    "output_tokens": 2595,
+    "cost_usd": 0.016211,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "هذا الأمر يدهشني."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100570066",
+    "original sentence": "إنه مثير للدهشة",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3175,
+    "cached_tokens": 3167,
+    "output_tokens": 2595,
+    "cost_usd": 0.016211,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "أنا أتعجب من هذا الشيء."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100430018",
+    "original sentence": "غزال مثلًا… أو نوع من الأرانب غالى الثمن! .. أو طائر صغير ضعيف يحبسونه في قفص ليغني لهم..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3203,
+    "cached_tokens": 3167,
+    "output_tokens": 12267,
+    "cost_usd": 0.074271,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "النوع الأول غزال مثلا، والنوع الثاني أرنب.",
+      "ثمن هذا الأرنب مرتفع.",
+      "النوع الثالث طائر صغير وضعيف.",
+      "يحبس الناس الطائر في قفص، ويغني الطائر لهم."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100430018",
+    "original sentence": "غزال مثلًا… أو نوع من الأرانب غالى الثمن! .. أو طائر صغير ضعيف يحبسونه في قفص ليغني لهم..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3203,
+    "cached_tokens": 3167,
+    "output_tokens": 12267,
+    "cost_usd": 0.074271,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "هل هو غزال مثلا؟",
+      "هل هو نوع من الأرانب؟",
+      "سعر هذا النوع كبير.",
+      "هل هو طائر صغير وضعيف؟",
+      "يحبس الناس هذا الطائر في قفص، ويغني الطائر لهم."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100430018",
+    "original sentence": "غزال مثلًا… أو نوع من الأرانب غالى الثمن! .. أو طائر صغير ضعيف يحبسونه في قفص ليغني لهم..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3203,
+    "cached_tokens": 3167,
+    "output_tokens": 12267,
+    "cost_usd": 0.074271,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "نجد غزالا مثلا، ونجد نوعا من الأرانب.",
+      "ثمن هذا النوع كبير.",
+      "ونجد طائرا صغيرا وضعيفا.",
+      "يضع الناس الطائر في قفص، ويغني الطائر لهم."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100690079",
+    "original sentence": "لذا فقد جئنا نقول لك: لا داعي لبيع دارك، فإننا سنمهلك في سداد دينك، حتى ييسر الله لك،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3203,
+    "cached_tokens": 3167,
+    "output_tokens": 12322,
+    "cost_usd": 0.074601,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "لهذا جئنا إليك ونقول لك: احتفظ بدارك.",
+      "نحن نؤخر دفع دينك.",
+      "يسهل الله لك الأمر وتدفع الدين."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100690079",
+    "original sentence": "لذا فقد جئنا نقول لك: لا داعي لبيع دارك، فإننا سنمهلك في سداد دينك، حتى ييسر الله لك،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3203,
+    "cached_tokens": 3167,
+    "output_tokens": 12322,
+    "cost_usd": 0.074601,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "من أجل هذا جئنا ونقول لك: ابق في دارك.",
+      "نحن نصبر على دينك.",
+      "يسهل الله لك الحال وبعد هذا تدفع الدين."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100690079",
+    "original sentence": "لذا فقد جئنا نقول لك: لا داعي لبيع دارك، فإننا سنمهلك في سداد دينك، حتى ييسر الله لك،",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3203,
+    "cached_tokens": 3167,
+    "output_tokens": 12322,
+    "cost_usd": 0.074601,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "حضرنا إليك لهذا السبب ونقول لك: اترك بيع الدار.",
+      "نحن ننتظر دفع دينك.",
+      "ييسر الله الأمر وتدفع المال."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100710033",
+    "original sentence": "وهرب منذ فترة بعد أن تمكن من سرقة مبلغ (13) مليون دولار مستغلًا منصبه!",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3192,
+    "cached_tokens": 3167,
+    "output_tokens": 9494,
+    "cost_usd": 0.057622,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "استغل منصبه، ونجح في سرقة مبلغ ثلاثة عشر مليون دولار، وهرب منذ فترة!"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100710033",
+    "original sentence": "وهرب منذ فترة بعد أن تمكن من سرقة مبلغ (13) مليون دولار مستغلًا منصبه!",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3192,
+    "cached_tokens": 3167,
+    "output_tokens": 9494,
+    "cost_usd": 0.057622,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تمكن من سرقة مبلغ ثلاثة عشر مليون دولار عندما استغل منصبه، وهرب منذ فترة!"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100710033",
+    "original sentence": "وهرب منذ فترة بعد أن تمكن من سرقة مبلغ (13) مليون دولار مستغلًا منصبه!",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3192,
+    "cached_tokens": 3167,
+    "output_tokens": 9494,
+    "cost_usd": 0.057622,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "استغل منصبه.",
+      "استطاع أن يسرق مبلغ ثلاثة عشر مليون دولار.",
+      "هرب منذ فترة!"
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100780046",
+    "original sentence": "والمدهش أن رجال الشرطة هم الذين أوحوا لي بها..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3184,
+    "cached_tokens": 3167,
+    "output_tokens": 12221,
+    "cost_usd": 0.073976,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "أدهشني رجال الشرطة.",
+      "هم ألهموني بها."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100780046",
+    "original sentence": "والمدهش أن رجال الشرطة هم الذين أوحوا لي بها..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3184,
+    "cached_tokens": 3167,
+    "output_tokens": 12221,
+    "cost_usd": 0.073976,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أدهشني هذا الأمر.",
+      "رجال الشرطة اقترحوا ذلك علي."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100780046",
+    "original sentence": "والمدهش أن رجال الشرطة هم الذين أوحوا لي بها..",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3184,
+    "cached_tokens": 3167,
+    "output_tokens": 12221,
+    "cost_usd": 0.073976,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تفاجأت من ذلك.",
+      "رجال الشرطة أشاروا علي بها."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100830039",
+    "original sentence": "مرج الحمام",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3172,
+    "cached_tokens": 3167,
+    "output_tokens": 2958,
+    "cost_usd": 0.018386,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "حقل الحمام."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100830039",
+    "original sentence": "مرج الحمام",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3172,
+    "cached_tokens": 3167,
+    "output_tokens": 2958,
+    "cost_usd": 0.018386,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "مرعى الحمام."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100830039",
+    "original sentence": "مرج الحمام",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3172,
+    "cached_tokens": 3167,
+    "output_tokens": 2958,
+    "cost_usd": 0.018386,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "أرض الحمام."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100830055",
+    "original sentence": "عملة بلدي",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3172,
+    "cached_tokens": 3167,
+    "output_tokens": 1405,
+    "cost_usd": 0.009068,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "هذه عملة بلدي."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100830055",
+    "original sentence": "عملة بلدي",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3172,
+    "cached_tokens": 3167,
+    "output_tokens": 1405,
+    "cost_usd": 0.009068,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "نقود وطني."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100830055",
+    "original sentence": "عملة بلدي",
+    "BAREC-19": "",
+    "BAREC-5": 2,
+    "gold reasons": "",
+    "simplified level": 1,
+    "prompt_tokens": 3172,
+    "cached_tokens": 3167,
+    "output_tokens": 1405,
+    "cost_usd": 0.009068,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "العملة في بلدي."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100290026",
+    "original sentence": "ورغم أنها هواية غير منتشرة في الوطن العربي، إلا أن هناك الكثيرين ممن يهتمون بها.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2300,
+    "cached_tokens": 2276,
+    "output_tokens": 5326,
+    "cost_usd": 0.032435,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "هذه الهواية غير منتشرة بشكل كبير بين الناس في الوطن العربي، ولكن يوجد عدد كبير من الأشخاص الذين يهتمون بها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100290026",
+    "original sentence": "ورغم أنها هواية غير منتشرة في الوطن العربي، إلا أن هناك الكثيرين ممن يهتمون بها.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2300,
+    "cached_tokens": 2276,
+    "output_tokens": 5326,
+    "cost_usd": 0.032435,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "لا تنتشر هذه الهواية كثيرا بين جميع الناس في الوطن العربي.",
+      "وفي المقابل يوجد عدد كبير من الأشخاص الذين يهتمون بهذه الهواية."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100290026",
+    "original sentence": "ورغم أنها هواية غير منتشرة في الوطن العربي، إلا أن هناك الكثيرين ممن يهتمون بها.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2300,
+    "cached_tokens": 2276,
+    "output_tokens": 5326,
+    "cost_usd": 0.032435,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "إن هذه الهواية غير معروفة عند غالبية الناس في الوطن العربي، ولكن هناك الكثير من الأشخاص الذين يهتمون بها جدا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100320002",
+    "original sentence": "•لماذا لا تساهم المجلة في تقوية أواصر الصداقة بين أبناء الوطن العربي وذلك بتشجيع اللقاءات خلال العطلة الصيفية؟",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2316,
+    "cached_tokens": 2276,
+    "output_tokens": 2104,
+    "cost_usd": 0.013119,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "لماذا لا تشارك المجلة في زيادة علاقات الصداقة بين الناس في الوطن العربي من خلال تشجيع اللقاءات في العطلة الصيفية؟"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100320002",
+    "original sentence": "•لماذا لا تساهم المجلة في تقوية أواصر الصداقة بين أبناء الوطن العربي وذلك بتشجيع اللقاءات خلال العطلة الصيفية؟",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2316,
+    "cached_tokens": 2276,
+    "output_tokens": 2104,
+    "cost_usd": 0.013119,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "لماذا لا تساعد المجلة في بناء صداقات قوية بين الشباب في الوطن العربي؟",
+      "يمكنها أن تفعل ذلك عن طريق تشجيع اللقاءات بينهم خلال الإجازة الصيفية."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100320002",
+    "original sentence": "•لماذا لا تساهم المجلة في تقوية أواصر الصداقة بين أبناء الوطن العربي وذلك بتشجيع اللقاءات خلال العطلة الصيفية؟",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2316,
+    "cached_tokens": 2276,
+    "output_tokens": 2104,
+    "cost_usd": 0.013119,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "لماذا لا تقوم المجلة بدور مهم في دعم روابط الصداقة بين سكان الدول العربية عبر ترتيب مقابلات بينهم أثناء العطلة الصيفية؟"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100560067",
+    "original sentence": "شاكر حسين صالح",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2281,
+    "cached_tokens": 2276,
+    "output_tokens": 3178,
+    "cost_usd": 0.019528,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "هذا هو الاسم الثلاثي الكامل للشخص الذي يدعى شاكر حسين صالح."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100560067",
+    "original sentence": "شاكر حسين صالح",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2281,
+    "cached_tokens": 2276,
+    "output_tokens": 3178,
+    "cost_usd": 0.019528,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "نحن نقرأ هنا اسما لشخص، وهذا الاسم الكامل هو شاكر حسين صالح."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100560067",
+    "original sentence": "شاكر حسين صالح",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2281,
+    "cached_tokens": 2276,
+    "output_tokens": 3178,
+    "cost_usd": 0.019528,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "الاسم الذي يوجد أمامنا في هذا النص هو اسم شاكر حسين صالح."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100590060",
+    "original sentence": "أو كان مصير هذه الأرض ما آل إليه أمر الظبي المسكين، الذي صار هزيلًا من الجوع،",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2302,
+    "cached_tokens": 2276,
+    "output_tokens": 2808,
+    "cost_usd": 0.017329,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "أو كانت نهاية هذه الأرض تشبه ما حدث لذلك الظبي المسكين، الذي أصبح ضعيفا جدا بسبب الجوع الشديد."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100590060",
+    "original sentence": "أو كان مصير هذه الأرض ما آل إليه أمر الظبي المسكين، الذي صار هزيلًا من الجوع،",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2302,
+    "cached_tokens": 2276,
+    "output_tokens": 2808,
+    "cost_usd": 0.017329,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أو كان مصير هذه الأرض يشبه ما حصل لذلك الظبي المسكين، الذي فقد كل قوته وصار نحيفا بسبب الجوع."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100590060",
+    "original sentence": "أو كان مصير هذه الأرض ما آل إليه أمر الظبي المسكين، الذي صار هزيلًا من الجوع،",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2302,
+    "cached_tokens": 2276,
+    "output_tokens": 2808,
+    "cost_usd": 0.017329,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "أو كانت هذه الأرض ستواجه نفس نهاية ذلك الظبي المسكين، الذي أصبح نحيفا وضعيفا جدا من شدة الجوع."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100590062",
+    "original sentence": "وأضاف الأب: وتلك عاقبة من يستسلم لأعدائه، ويغتر بأقوالهم، وأفعالهم.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 2743,
+    "cost_usd": 0.016943,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "أضاف الأب قائلا: هذه هي نهاية الشخص الذي يستسلم لأعدائه، وينخدع بكلامهم، ويصدق أفعالهم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100590062",
+    "original sentence": "وأضاف الأب: وتلك عاقبة من يستسلم لأعدائه، ويغتر بأقوالهم، وأفعالهم.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 2743,
+    "cost_usd": 0.016943,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أكمل الأب كلامه وقال: هذه نتيجة من يستسلم لأعدائه.",
+      "وهذا مصير كل من ينخدع بأقوالهم وأفعالهم الكاذبة."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100590062",
+    "original sentence": "وأضاف الأب: وتلك عاقبة من يستسلم لأعدائه، ويغتر بأقوالهم، وأفعالهم.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 2743,
+    "cost_usd": 0.016943,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "أضاف الأب إلى حديثه وقال: هذا هو مصير الإنسان الذي يستسلم أمام أعدائه، وينخدع بكلامهم وأعمالهم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100610020",
+    "original sentence": "-مجلة ثقافية رائعة، تقدم للأصدقاء كل ما هو جديد ومفيد ينمي ثقافتهم ويوسع مداركهم.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 3915,
+    "cost_usd": 0.023975,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "هذه مجلة ثقافية رائعة جدا، وهي تقدم للأصدقاء كل شيء جديد ومفيد، وتعمل على زيادة ثقافتهم وتوسيع فهمهم للأشياء من حولهم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100610020",
+    "original sentence": "-مجلة ثقافية رائعة، تقدم للأصدقاء كل ما هو جديد ومفيد ينمي ثقافتهم ويوسع مداركهم.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 3915,
+    "cost_usd": 0.023975,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "إنها مجلة ثقافية جميلة ومميزة، وتقدم إلى الأصدقاء كل الأشياء الجديدة والمفيدة التي تطور ثقافتهم وتزيد من معرفتهم الواسعة في الحياة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100610020",
+    "original sentence": "-مجلة ثقافية رائعة، تقدم للأصدقاء كل ما هو جديد ومفيد ينمي ثقافتهم ويوسع مداركهم.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 3915,
+    "cost_usd": 0.023975,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "إن هذه المجلة الثقافية ممتازة جدا، لأنها تنشر لكل الأصدقاء موضوعات مفيدة وجديدة تساعدهم دائما على بناء ثقافتهم وتطوير عقولهم باستمرار."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100630012",
+    "original sentence": "إذ نلاحظ أن كريات الدم الحمراء التي تحمل الغذاء إلى جميع أجزاء الجسم، قد تغير شكلها في الفضاء..",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 2718,
+    "cost_usd": 0.016793,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "نحن نلاحظ أن خلايا الدم الحمراء التي تنقل الغذاء إلى كل أجزاء الجسم قد تغير شكلها في الفضاء."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100630012",
+    "original sentence": "إذ نلاحظ أن كريات الدم الحمراء التي تحمل الغذاء إلى جميع أجزاء الجسم، قد تغير شكلها في الفضاء..",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 2718,
+    "cost_usd": 0.016793,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تنقل خلايا الدم الحمراء الغذاء إلى كل أجزاء الجسم المختلفة.",
+      "ونحن نرى أن شكل هذه الخلايا قد تغير في الفضاء."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100630012",
+    "original sentence": "إذ نلاحظ أن كريات الدم الحمراء التي تحمل الغذاء إلى جميع أجزاء الجسم، قد تغير شكلها في الفضاء..",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 2718,
+    "cost_usd": 0.016793,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "لقد لاحظنا أن شكل خلايا الدم الحمراء قد تغير في الفضاء، وهي الخلايا التي تحمل الغذاء إلى جميع أنحاء الجسم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100670006",
+    "original sentence": "ثم نبح نباحًا عاليًا وقال: انظروا إلى قوامي البديع وإلى رشاقتي وبراعتي وجمال صوتي!!",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2313,
+    "cached_tokens": 2276,
+    "output_tokens": 4097,
+    "cost_usd": 0.025074,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "ثم نبح نباحا عاليا وقال: انظروا إلى جسدي الجميل، وإلى حركتي السريعة، وإلى مهارتي الكبيرة، وإلى جمال صوتي."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100670006",
+    "original sentence": "ثم نبح نباحًا عاليًا وقال: انظروا إلى قوامي البديع وإلى رشاقتي وبراعتي وجمال صوتي!!",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2313,
+    "cached_tokens": 2276,
+    "output_tokens": 4097,
+    "cost_usd": 0.025074,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "ثم نبح بصوت مرتفع جدا.",
+      "بعد ذلك قال: شاهدوا شكل جسدي الرائع.",
+      "انظروا أيضا إلى خفتي وسرعتي، ومهارتي، وجمال صوتي."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100670006",
+    "original sentence": "ثم نبح نباحًا عاليًا وقال: انظروا إلى قوامي البديع وإلى رشاقتي وبراعتي وجمال صوتي!!",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2313,
+    "cached_tokens": 2276,
+    "output_tokens": 4097,
+    "cost_usd": 0.025074,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "بعد ذلك نبح بصوت قوي وقال: تأملوا شكل جسمي الجميل، وانظروا إلى سرعتي ومهارتي، ولاحظوا جمال صوتي."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100670035",
+    "original sentence": "وقال الأرنب الحكيم للكلب (لاكي): لن تشرب من هذه العين إلا إذا أخبرتني بسر الماء",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2305,
+    "cached_tokens": 2276,
+    "output_tokens": 4491,
+    "cost_usd": 0.02743,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "قال الأرنب الحكيم للكلب لاكي: أخبرني بسر الماء أولا، وبعد ذلك سوف تشرب من هذا النبع."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100670035",
+    "original sentence": "وقال الأرنب الحكيم للكلب (لاكي): لن تشرب من هذه العين إلا إذا أخبرتني بسر الماء",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2305,
+    "cached_tokens": 2276,
+    "output_tokens": 4491,
+    "cost_usd": 0.02743,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "منع الأرنب الحكيم الكلب لاكي من الشرب، وقال له: اشرح لي سر الماء قبل الشرب من هذا النبع."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100670035",
+    "original sentence": "وقال الأرنب الحكيم للكلب (لاكي): لن تشرب من هذه العين إلا إذا أخبرتني بسر الماء",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2305,
+    "cached_tokens": 2276,
+    "output_tokens": 4491,
+    "cost_usd": 0.02743,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تحدث الأرنب الحكيم مع الكلب لاكي قائلا: أنت ممنوع من الشرب من هذا النبع حتى تخبرني بسر الماء."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100680010",
+    "original sentence": "ولكن الرجل حاول أن يثنيه عن ذلك قائلًا: لا تبلل ثيابك وتفسد عطرك،",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2304,
+    "cached_tokens": 2276,
+    "output_tokens": 2946,
+    "cost_usd": 0.018159,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "ولكن الرجل حاول أن يمنعه من فعل ذلك وقال له: لا تبلل ثيابك ولا تفسد عطرك الذي تستخدمه."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100680010",
+    "original sentence": "ولكن الرجل حاول أن يثنيه عن ذلك قائلًا: لا تبلل ثيابك وتفسد عطرك،",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2304,
+    "cached_tokens": 2276,
+    "output_tokens": 2946,
+    "cost_usd": 0.018159,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "طلب الرجل منه أن يبتعد عن هذا العمل وقال له: لا تجعل ثيابك مبللة ولا تفسد عطرك."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100680010",
+    "original sentence": "ولكن الرجل حاول أن يثنيه عن ذلك قائلًا: لا تبلل ثيابك وتفسد عطرك،",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2304,
+    "cached_tokens": 2276,
+    "output_tokens": 2946,
+    "cost_usd": 0.018159,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "حاول الرجل أن يجعله يغير رأيه وتحدث إليه قائلا: يجب عليك ألا تبلل ملابسك ولا تفسد عطرك."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100710017",
+    "original sentence": "كما تأكد لهم أن الإمبراطورية العثمانية يجب أن تزول، وأن تنزع فلسطين من سيطرة الأتراك عليها.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2308,
+    "cached_tokens": 2276,
+    "output_tokens": 3257,
+    "cost_usd": 0.020029,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "صار واضحا لهم أن الإمبراطورية العثمانية يجب أن تنتهي.",
+      "وتأكدوا أيضا من ضرورة إخراج فلسطين من سلطة الأتراك."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100710017",
+    "original sentence": "كما تأكد لهم أن الإمبراطورية العثمانية يجب أن تزول، وأن تنزع فلسطين من سيطرة الأتراك عليها.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2308,
+    "cached_tokens": 2276,
+    "output_tokens": 3257,
+    "cost_usd": 0.020029,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "لقد تأكدوا من ضرورة سقوط الإمبراطورية العثمانية، واقتنعوا بأنه يجب تحرير فلسطين من حكم الأتراك."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100710017",
+    "original sentence": "كما تأكد لهم أن الإمبراطورية العثمانية يجب أن تزول، وأن تنزع فلسطين من سيطرة الأتراك عليها.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2308,
+    "cached_tokens": 2276,
+    "output_tokens": 3257,
+    "cost_usd": 0.020029,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "عرف هؤلاء جيدا أن الإمبراطورية العثمانية يجب أن تسقط، وأنه يجب إنهاء سيطرة الأتراك على فلسطين."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100730005",
+    "original sentence": "من الضروري أن يتميز لاعب التنس بلياقة بدنية عالية تؤهله للجري لأكثر من ثلاث ساعات – على الأقل – في المباريات التي تستغرق (5) مجموعات.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2320,
+    "cached_tokens": 2276,
+    "output_tokens": 3522,
+    "cost_usd": 0.021631,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "يحتاج لاعب التنس إلى لياقة بدنية عالية تساعده على الجري لأكثر من ثلاث ساعات على الأقل في المباريات التي تستمر خمس مجموعات."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100730005",
+    "original sentence": "من الضروري أن يتميز لاعب التنس بلياقة بدنية عالية تؤهله للجري لأكثر من ثلاث ساعات – على الأقل – في المباريات التي تستغرق (5) مجموعات.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2320,
+    "cached_tokens": 2276,
+    "output_tokens": 3522,
+    "cost_usd": 0.021631,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "يجب على لاعب التنس التمتع بلياقة بدنية عالية تجعله قادرا على الجري لأكثر من ثلاث ساعات على الأقل في المباريات التي تمتد لخمس مجموعات."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100730005",
+    "original sentence": "من الضروري أن يتميز لاعب التنس بلياقة بدنية عالية تؤهله للجري لأكثر من ثلاث ساعات – على الأقل – في المباريات التي تستغرق (5) مجموعات.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2320,
+    "cached_tokens": 2276,
+    "output_tokens": 3522,
+    "cost_usd": 0.021631,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يتطلب لعب التنس لياقة بدنية عالية لكي يتمكن اللاعب من الجري لأكثر من ثلاث ساعات على الأقل خلال المباريات التي تستغرق خمس مجموعات."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100760014",
+    "original sentence": "الأستاذ: ما هي معلوماتك عن مؤرخي القرن السادس عشر؟",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2293,
+    "cached_tokens": 2276,
+    "output_tokens": 3976,
+    "cost_usd": 0.024328,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "طرح الأستاذ سؤاله وقال: ما هي المعلومات التي تعرفها عن علماء التاريخ في القرن السادس عشر؟"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100760014",
+    "original sentence": "الأستاذ: ما هي معلوماتك عن مؤرخي القرن السادس عشر؟",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2293,
+    "cached_tokens": 2276,
+    "output_tokens": 3976,
+    "cost_usd": 0.024328,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "بدأ المعلم كلامه بسؤال قائلا: هل تستطيع أن تخبرني بكل ما تعرفه عن مؤرخي القرن السادس عشر؟"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100760014",
+    "original sentence": "الأستاذ: ما هي معلوماتك عن مؤرخي القرن السادس عشر؟",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2293,
+    "cached_tokens": 2276,
+    "output_tokens": 3976,
+    "cost_usd": 0.024328,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "قال الأستاذ في سؤاله: أريد أن أعرف منك ماذا تملك من معلومات عن مؤرخي القرن السادس عشر؟"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100660025",
+    "original sentence": "وهكذا يتتبع البخاري الحديث نقلًا عن فلان وفلان.. إلخ حتى يصل إلى قول الرسول عليه السلام.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2304,
+    "cached_tokens": 2276,
+    "output_tokens": 2705,
+    "cost_usd": 0.016713,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "بهذه الطريقة يتابع البخاري نقل الحديث الشريف من شخص إلى شخص آخر حتى يصل إلى كلام الرسول عليه السلام."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100660025",
+    "original sentence": "وهكذا يتتبع البخاري الحديث نقلًا عن فلان وفلان.. إلخ حتى يصل إلى قول الرسول عليه السلام.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2304,
+    "cached_tokens": 2276,
+    "output_tokens": 2705,
+    "cost_usd": 0.016713,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "هكذا يبحث الإمام البخاري عن الحديث ويأخذه من عدة أشخاص متتابعين حتى يصل في النهاية إلى كلام النبي عليه السلام."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100660025",
+    "original sentence": "وهكذا يتتبع البخاري الحديث نقلًا عن فلان وفلان.. إلخ حتى يصل إلى قول الرسول عليه السلام.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2304,
+    "cached_tokens": 2276,
+    "output_tokens": 2705,
+    "cost_usd": 0.016713,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "هكذا يدرس الإمام البخاري سلسلة نقل الحديث الشريف من شخص إلى آخر.",
+      "هو يستمر في هذا العمل المهم حتى يصل إلى قول الرسول عليه السلام."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100690090",
+    "original sentence": "قال تعالى في سورة الشورى: (وأمرهم شورى بينهم)",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2294,
+    "cached_tokens": 2276,
+    "output_tokens": 1935,
+    "cost_usd": 0.012083,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "قال الله تعالى في سورة الشورى إن المؤمنين يتشاورون فيما بينهم في كل أمورهم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100690090",
+    "original sentence": "قال تعالى في سورة الشورى: (وأمرهم شورى بينهم)",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2294,
+    "cached_tokens": 2276,
+    "output_tokens": 1935,
+    "cost_usd": 0.012083,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "ذكر الله سبحانه وتعالى في سورة الشورى أن المسلمين يتبادلون الآراء ويتشاورون دائما في شؤون حياتهم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100690090",
+    "original sentence": "قال تعالى في سورة الشورى: (وأمرهم شورى بينهم)",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2294,
+    "cached_tokens": 2276,
+    "output_tokens": 1935,
+    "cost_usd": 0.012083,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يخبرنا القرآن الكريم في سورة الشورى أن المؤمنين يشاركون بعضهم البعض في اتخاذ القرارات المهمة الخاصة بهم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100720020",
+    "original sentence": "وكان التمثيل في مصر آنذاك مقصورًا على الفرق الأجنبية التي استقدمها الخديوي إسماعيل.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2303,
+    "cached_tokens": 2276,
+    "output_tokens": 3193,
+    "cost_usd": 0.01964,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "كان فن التمثيل في مصر في ذلك الوقت مخصصا للفرق الأجنبية التي أحضرها الخديوي إسماعيل."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100720020",
+    "original sentence": "وكان التمثيل في مصر آنذاك مقصورًا على الفرق الأجنبية التي استقدمها الخديوي إسماعيل.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2303,
+    "cached_tokens": 2276,
+    "output_tokens": 3193,
+    "cost_usd": 0.01964,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "في ذلك الوقت كان التمثيل في مصر مقتصرا على الفرق الأجنبية.",
+      "وقد جلب الخديوي إسماعيل هذه الفرق إلى مصر."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100720020",
+    "original sentence": "وكان التمثيل في مصر آنذاك مقصورًا على الفرق الأجنبية التي استقدمها الخديوي إسماعيل.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2303,
+    "cached_tokens": 2276,
+    "output_tokens": 3193,
+    "cost_usd": 0.01964,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "أحضر الخديوي إسماعيل فرقا أجنبية إلى مصر.",
+      "وكان التمثيل في ذلك الوقت يعتمد على هذه الفرق بشكل كامل."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100760033",
+    "original sentence": "فزوجتي لا تطمئن إلا إذا كان جيبي (أبيض × أبيض)!!",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2297,
+    "cached_tokens": 2276,
+    "output_tokens": 3090,
+    "cost_usd": 0.019016,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "تشعر زوجتي بالراحة والطمأنينة الكبيرة عندما يصبح جيبي فارغا تماما من النقود."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100760033",
+    "original sentence": "فزوجتي لا تطمئن إلا إذا كان جيبي (أبيض × أبيض)!!",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2297,
+    "cached_tokens": 2276,
+    "output_tokens": 3090,
+    "cost_usd": 0.019016,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تجد زوجتي راحتها وتطمئن كثيرا حين لا يتبقى أي مبلغ مالي في جيبي."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100760033",
+    "original sentence": "فزوجتي لا تطمئن إلا إذا كان جيبي (أبيض × أبيض)!!",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2297,
+    "cached_tokens": 2276,
+    "output_tokens": 3090,
+    "cost_usd": 0.019016,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يرتاح قلب زوجتي وتهدأ تماما في الأوقات التي يفرغ فيها جيبي من المال."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101520134",
+    "original sentence": "إن هذا الدعاء يزيل الحزن واليأس عن قلب المؤمن.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2293,
+    "cached_tokens": 2276,
+    "output_tokens": 4475,
+    "cost_usd": 0.027322,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "إن هذا الدعاء يزيل الحزن عن قلب المؤمن، وهو يزيل عنه اليأس أيضا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101520134",
+    "original sentence": "إن هذا الدعاء يزيل الحزن واليأس عن قلب المؤمن.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2293,
+    "cached_tokens": 2276,
+    "output_tokens": 4475,
+    "cost_usd": 0.027322,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "يؤدي هذا الدعاء إلى إزالة الحزن، وكذلك إبعاد اليأس عن قلب الإنسان المؤمن."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101520134",
+    "original sentence": "إن هذا الدعاء يزيل الحزن واليأس عن قلب المؤمن.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2293,
+    "cached_tokens": 2276,
+    "output_tokens": 4475,
+    "cost_usd": 0.027322,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "إن هذا الدعاء يبعد الشعور بالحزن، كما أنه يزيل اليأس من قلب الشخص المؤمن."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101580033",
+    "original sentence": "قال تعالى: (ومن يضلل الله فما له من ولي من بعده)",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2295,
+    "cached_tokens": 2276,
+    "output_tokens": 2994,
+    "cost_usd": 0.018438,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "يقول الله في كتابه الكريم إن الإنسان الذي يتركه الله في الضلالة لن يجد أي نصير يحميه من بعد الله."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101580033",
+    "original sentence": "قال تعالى: (ومن يضلل الله فما له من ولي من بعده)",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2295,
+    "cached_tokens": 2276,
+    "output_tokens": 2994,
+    "cost_usd": 0.018438,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "يترك الله العظيم بعض الناس في طريق الضلال المظلم والبعيد عن الحق.",
+      "لا يجد هؤلاء الناس أي ولي أو نصير ينقذهم ويحميهم من بعد الله."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10101580033",
+    "original sentence": "قال تعالى: (ومن يضلل الله فما له من ولي من بعده)",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2295,
+    "cached_tokens": 2276,
+    "output_tokens": 2994,
+    "cost_usd": 0.018438,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "أخبرنا الله في القرآن الكريم عن مصير الشخص الذي يضله الله ويبعده عن الصواب.",
+      "هذا الشخص الضال لن يجد أي حافظ أو نصير يحميه ويدافع عنه من بعد الله."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10102160007",
+    "original sentence": "فحينما يمر الإنسان بعاطفة قوية، كرؤية حادث، حتى إذا لم يكن دمويًا، يملأ فكره للحظة قصيرة قلق وخوف، فلا يمكن لمخه أن يعي لوهلة قصيرة، بما يعلمه، بأنه يقود سيارة مثلًا.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2344,
+    "cached_tokens": 2276,
+    "output_tokens": 6784,
+    "cost_usd": 0.041227,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "يشعر الإنسان بعاطفة قوية تملأ فكره بالخوف والقلق للحظات قصيرة عند رؤية حادث خال من الدماء.",
+      "يعجز مخ هذا الإنسان في هذه اللحظات عن إدراك بعض المعلومات البديهية مثل قيادته للسيارة."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10102160007",
+    "original sentence": "فحينما يمر الإنسان بعاطفة قوية، كرؤية حادث، حتى إذا لم يكن دمويًا، يملأ فكره للحظة قصيرة قلق وخوف، فلا يمكن لمخه أن يعي لوهلة قصيرة، بما يعلمه، بأنه يقود سيارة مثلًا.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2344,
+    "cached_tokens": 2276,
+    "output_tokens": 6784,
+    "cost_usd": 0.041227,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تثير مشاهدة الحوادث العادية والخطيرة عاطفة قوية تملأ عقل الإنسان بالخوف والقلق الشديد.",
+      "يعجز العقل في تلك اللحظات القصيرة عن إدراك الأشياء المعتادة مثل قيام الشخص بقيادة السيارة."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10102160007",
+    "original sentence": "فحينما يمر الإنسان بعاطفة قوية، كرؤية حادث، حتى إذا لم يكن دمويًا، يملأ فكره للحظة قصيرة قلق وخوف، فلا يمكن لمخه أن يعي لوهلة قصيرة، بما يعلمه، بأنه يقود سيارة مثلًا.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2344,
+    "cached_tokens": 2276,
+    "output_tokens": 6784,
+    "cost_usd": 0.041227,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يصاب الإنسان بعاطفة قوية تملأ عقله بالخوف والقلق لفترة قصيرة عند مشاهدة الحوادث الخالية من الدماء، ويمنع هذا الخوف عقله من إدراك المهام المعروفة لديه في تلك اللحظة مثل قيادة السيارة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10102890017",
+    "original sentence": "ولما رأى الحمار والدموع تكاد تسقط من عينيه من شدة الإجهاد قال له: \"استرح..",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 2885,
+    "cost_usd": 0.017795,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "نظر إلى الحمار، وكانت الدموع تكاد تسقط من عينيه بسبب التعب الشديد، فقال له: استرح."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10102890017",
+    "original sentence": "ولما رأى الحمار والدموع تكاد تسقط من عينيه من شدة الإجهاد قال له: \"استرح..",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 2885,
+    "cost_usd": 0.017795,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "رأى الحمار والدموع توشك أن تنزل من عينيه من شدة التعب، ولذلك قال له: استرح."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10102890017",
+    "original sentence": "ولما رأى الحمار والدموع تكاد تسقط من عينيه من شدة الإجهاد قال له: \"استرح..",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2306,
+    "cached_tokens": 2276,
+    "output_tokens": 2885,
+    "cost_usd": 0.017795,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "وجد الحمار يشعر بالتعب الشديد والدموع قريبة من النزول من عينيه، فقال له: استرح."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10102930021",
+    "original sentence": "حياة البيات الشتوي لدى بعض الكائنات مليئة بالغرائب، لكن أغربها ما يحدث لضفدع الغابات الذي يعيش في الولايات المتحدة، إذ يتحول 65% من الماء الموجود في جسمه إلى بلورات ثلج أثناء بياته الشتوي!",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2340,
+    "cached_tokens": 2276,
+    "output_tokens": 3891,
+    "cost_usd": 0.023865,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "تتميز فترة النوم الشتوي عند بعض الكائنات الحية بوجود أشياء غريبة جدا.",
+      "لكن الحدث الأغرب يقع لضفدع الغابات الذي يعيش في الولايات المتحدة الأمريكية.",
+      "يتحول 65% من الماء الموجود في جسم هذا الضفدع إلى قطع من الثلج خلال نومه."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10102930021",
+    "original sentence": "حياة البيات الشتوي لدى بعض الكائنات مليئة بالغرائب، لكن أغربها ما يحدث لضفدع الغابات الذي يعيش في الولايات المتحدة، إذ يتحول 65% من الماء الموجود في جسمه إلى بلورات ثلج أثناء بياته الشتوي!",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2340,
+    "cached_tokens": 2276,
+    "output_tokens": 3891,
+    "cost_usd": 0.023865,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "توجد أمور عجيبة كثيرة في حياة الكائنات التي تنام طوال فصل الشتاء.",
+      "يعتبر ضفدع الغابات في الولايات المتحدة صاحب أغرب حالة في هذا النوم الطويل.",
+      "تتجمد نسبة 65% من كمية الماء داخل جسمه وتصبح ثلجا في الشتاء."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10102930021",
+    "original sentence": "حياة البيات الشتوي لدى بعض الكائنات مليئة بالغرائب، لكن أغربها ما يحدث لضفدع الغابات الذي يعيش في الولايات المتحدة، إذ يتحول 65% من الماء الموجود في جسمه إلى بلورات ثلج أثناء بياته الشتوي!",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2340,
+    "cached_tokens": 2276,
+    "output_tokens": 3891,
+    "cost_usd": 0.023865,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يمتلئ نوم الشتاء الطويل لدى بعض الكائنات الحية بالكثير من العجائب المدهشة.",
+      "إن أغرب عجيبة تحدث لضفدع الغابات الموجود في دولة الولايات المتحدة الأمريكية.",
+      "تتغير 65% من المياه الموجودة داخل جسمه لتصبح قطعا ثلجية خلال فترة نومه."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10300220034",
+    "original sentence": "فَإِذَا مَا كَانَتْ بَيْضَةً، فَلَا بُدَّ أَنَّهَا تَخُصُّ أَحَدَهُمْ، وَرُبَّمَا كَانَ الْأَفْضَلُ أَنْ يَعْرِفَ مَنْ صَاحِبُهَا.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2350,
+    "cached_tokens": 2276,
+    "output_tokens": 5150,
+    "cost_usd": 0.031429,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "لنفترض أن هذا الشيء بيضة، فهي إذن تخص شخصا منهم بالتأكيد، وربما تكون معرفة صاحبها الحقيقي هي الخيار الأفضل."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10300220034",
+    "original sentence": "فَإِذَا مَا كَانَتْ بَيْضَةً، فَلَا بُدَّ أَنَّهَا تَخُصُّ أَحَدَهُمْ، وَرُبَّمَا كَانَ الْأَفْضَلُ أَنْ يَعْرِفَ مَنْ صَاحِبُهَا.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2350,
+    "cached_tokens": 2276,
+    "output_tokens": 5150,
+    "cost_usd": 0.031429,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "قد يكون هذا الشيء بيضة حقيقية.",
+      "هذا يعني أنها ملك لواحد منهم بلا شك.",
+      "وربما تكون معرفة صاحبها أمرا أفضل."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10300220034",
+    "original sentence": "فَإِذَا مَا كَانَتْ بَيْضَةً، فَلَا بُدَّ أَنَّهَا تَخُصُّ أَحَدَهُمْ، وَرُبَّمَا كَانَ الْأَفْضَلُ أَنْ يَعْرِفَ مَنْ صَاحِبُهَا.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2350,
+    "cached_tokens": 2276,
+    "output_tokens": 5150,
+    "cost_usd": 0.031429,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "دعونا نعتبر هذا الشيء بيضة، فهي بالتأكيد ملك لشخص منهم، وربما تمثل معرفة صاحب هذه البيضة أمرا مفيدا جدا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10300390033",
+    "original sentence": "قالت على سبيل المداهنة: «شرف عظيم لي أن أتولى رعاية مثل هذه الطفلة «الذكيَّة الجميلة» يا كابتن كرو.»",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2318,
+    "cached_tokens": 2276,
+    "output_tokens": 3815,
+    "cost_usd": 0.023387,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "قالت وهي تجامله بكلمات لطيفة: أنا فخورة جدا برعاية هذه الطفلة الذكية والجميلة يا كابتن كرو."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10300390033",
+    "original sentence": "قالت على سبيل المداهنة: «شرف عظيم لي أن أتولى رعاية مثل هذه الطفلة «الذكيَّة الجميلة» يا كابتن كرو.»",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2318,
+    "cached_tokens": 2276,
+    "output_tokens": 3815,
+    "cost_usd": 0.023387,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "قالت له بأسلوب مليء بالمجاملة: يا كابتن كرو، رعاية هذه الطفلة الذكية الجميلة شرف كبير لي."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10300390033",
+    "original sentence": "قالت على سبيل المداهنة: «شرف عظيم لي أن أتولى رعاية مثل هذه الطفلة «الذكيَّة الجميلة» يا كابتن كرو.»",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2318,
+    "cached_tokens": 2276,
+    "output_tokens": 3815,
+    "cost_usd": 0.023387,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "قالت وهي تحاول إرضاءه بالكلام اللطيف: يا كابتن كرو، أنا سعيدة وفخورة لأنني سأكون مسؤولة عن الاهتمام بهذه الطفلة الذكية والجميلة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10300460063",
+    "original sentence": "ولقَّبتني حاشيتي بالأمير السعيد، ولقد كنتُ بالفعل سعيدًا، إن كانت المُتَع تعني السعادة.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2310,
+    "cached_tokens": 2276,
+    "output_tokens": 5633,
+    "cost_usd": 0.034287,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "أعطاني المساعدون لقب الأمير السعيد، وقد كنت سعيدا بالفعل بناء على الفكرة التي تعتبر الاستمتاع هو السعادة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10300460063",
+    "original sentence": "ولقَّبتني حاشيتي بالأمير السعيد، ولقد كنتُ بالفعل سعيدًا، إن كانت المُتَع تعني السعادة.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2310,
+    "cached_tokens": 2276,
+    "output_tokens": 5633,
+    "cost_usd": 0.034287,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أطلق أتباعي علي اسم الأمير السعيد، وكنت أشعر بسعادة كبيرة على اعتبار أن الأشياء الممتعة تعني السعادة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10300460063",
+    "original sentence": "ولقَّبتني حاشيتي بالأمير السعيد، ولقد كنتُ بالفعل سعيدًا، إن كانت المُتَع تعني السعادة.",
+    "BAREC-19": "",
+    "BAREC-5": 3,
+    "gold reasons": "",
+    "simplified level": 2,
+    "prompt_tokens": 2310,
+    "cached_tokens": 2276,
+    "output_tokens": 5633,
+    "cost_usd": 0.034287,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "سماني العاملون في القصر بالأمير السعيد، ولقد عشت حياة سعيدة جدا لأنني ظننت أن كثرة المتع هي السعادة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100330133",
+    "original sentence": "ويقال إنها لما بلغت 500 سنة أحرقت نفسها وبرزت من دخانها عنقاء أخرى..",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1893,
+    "cached_tokens": 1865,
+    "output_tokens": 4144,
+    "cost_usd": 0.025265,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "يقال عن العنقاء إنها عندما عاشت ووصل عمرها إلى خمس مئة سنة، أشعلت النار في جسدها لتحترق، وبعدها خرجت من وسط هذا الدخان عنقاء أخرى."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100330133",
+    "original sentence": "ويقال إنها لما بلغت 500 سنة أحرقت نفسها وبرزت من دخانها عنقاء أخرى..",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1893,
+    "cached_tokens": 1865,
+    "output_tokens": 4144,
+    "cost_usd": 0.025265,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "يتحدث الناس ويقولون إن هذه العنقاء لما وصلت إلى عمر خمس مئة سنة كاملة، قامت بإحراق نفسها في النار، وعقب ذلك خرجت من دخانها عنقاء أخرى."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100330133",
+    "original sentence": "ويقال إنها لما بلغت 500 سنة أحرقت نفسها وبرزت من دخانها عنقاء أخرى..",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1893,
+    "cached_tokens": 1865,
+    "output_tokens": 4144,
+    "cost_usd": 0.025265,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يوجد قول بين الناس بأن هذه العنقاء عندما مر عليها من الزمن خمس مئة سنة، أحرقت جسدها بالنار، وبعدها ظهرت من ذلك الدخان عنقاء أخرى."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100590089",
+    "original sentence": "علق أهالي إحدى القرى شمالي (تشيكوسلوفاكيا) لافتة طريفة على تمثال للزعيم السوفييتي (ستالين).. كتبوا عليها ساخرين من التمثال.. كلمة (للبيع)!",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1921,
+    "cached_tokens": 1865,
+    "output_tokens": 4320,
+    "cost_usd": 0.026349,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "قام أهالي قرية تقع في شمال تشيكوسلوفاكيا بتعليق لافتة مضحكة على تمثال يخص الزعيم السوفييتي ستالين.",
+      "وكتبوا على هذه اللافتة كلمة للبيع لكي يسخروا من ذلك التمثال."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100590089",
+    "original sentence": "علق أهالي إحدى القرى شمالي (تشيكوسلوفاكيا) لافتة طريفة على تمثال للزعيم السوفييتي (ستالين).. كتبوا عليها ساخرين من التمثال.. كلمة (للبيع)!",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1921,
+    "cached_tokens": 1865,
+    "output_tokens": 4320,
+    "cost_usd": 0.026349,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "في شمال تشيكوسلوفاكيا، وضع أهالي إحدى القرى لافتة طريفة على تمثال للزعيم السوفييتي ستالين.",
+      "وقد كتب هؤلاء الأهالي كلمة للبيع على تلك اللافتة وهم يسخرون من تمثال هذا الزعيم."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100590089",
+    "original sentence": "علق أهالي إحدى القرى شمالي (تشيكوسلوفاكيا) لافتة طريفة على تمثال للزعيم السوفييتي (ستالين).. كتبوا عليها ساخرين من التمثال.. كلمة (للبيع)!",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1921,
+    "cached_tokens": 1865,
+    "output_tokens": 4320,
+    "cost_usd": 0.026349,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "علق سكان إحدى القرى الواقعة في شمال تشيكوسلوفاكيا لافتة مضحكة على تمثال الزعيم السوفييتي ستالين.",
+      "ثم كتبوا على هذه اللافتة كلمة للبيع وهم يسخرون من تمثال هذا الزعيم السوفييتي."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100810102",
+    "original sentence": "وتشغل فدوى مالطي الآن منصب رئيس قسم دراسات الشرق الأوسط في جامعة إنديانا.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1891,
+    "cached_tokens": 1865,
+    "output_tokens": 4676,
+    "cost_usd": 0.028455,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "في الوقت الحاضر، تقوم فدوى مالطي بالعمل في منصب رئيسة القسم الذي يختص بتقديم دراسات عن منطقة الشرق الأوسط، وهذا القسم موجود في جامعة إنديانا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100810102",
+    "original sentence": "وتشغل فدوى مالطي الآن منصب رئيس قسم دراسات الشرق الأوسط في جامعة إنديانا.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1891,
+    "cached_tokens": 1865,
+    "output_tokens": 4676,
+    "cost_usd": 0.028455,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تعمل فدوى مالطي في الوقت الحالي وتتولى القيام بمهام منصب رئيس القسم الذي يهتم بدراسات منطقة الشرق الأوسط، ويوجد هذا القسم في جامعة إنديانا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100810102",
+    "original sentence": "وتشغل فدوى مالطي الآن منصب رئيس قسم دراسات الشرق الأوسط في جامعة إنديانا.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1891,
+    "cached_tokens": 1865,
+    "output_tokens": 4676,
+    "cost_usd": 0.028455,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "في هذه الأيام، تعمل فدوى مالطي وتتولى مسؤولية إدارة منصب رئيس القسم الذي يقدم دراسات تتعلق بمنطقة الشرق الأوسط، وهو قسم يقع في جامعة إنديانا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100820103",
+    "original sentence": "ألكسندر فليمنج: اكتشف نوعًا من العفن الذي يفرز مادة مضادة للجراثيم، ثم استخلص منه (البنسلين).",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1903,
+    "cached_tokens": 1865,
+    "output_tokens": 3947,
+    "cost_usd": 0.024093,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "العالم ألكسندر فليمنج هو الشخص الذي اكتشف نوعا معينا من العفن، وقد لاحظ أن هذا العفن يخرج مادة تقاوم الجراثيم، وبعد ذلك استخلص منه البنسلين."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100820103",
+    "original sentence": "ألكسندر فليمنج: اكتشف نوعًا من العفن الذي يفرز مادة مضادة للجراثيم، ثم استخلص منه (البنسلين).",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1903,
+    "cached_tokens": 1865,
+    "output_tokens": 3947,
+    "cost_usd": 0.024093,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تمكن العالم ألكسندر فليمنج من اكتشاف نوع من أنواع العفن، ووجد أن هذا العفن يفرز مادة مضادة للجراثيم، ثم استطاع أن يستخرج منه مادة البنسلين."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100820103",
+    "original sentence": "ألكسندر فليمنج: اكتشف نوعًا من العفن الذي يفرز مادة مضادة للجراثيم، ثم استخلص منه (البنسلين).",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1903,
+    "cached_tokens": 1865,
+    "output_tokens": 3947,
+    "cost_usd": 0.024093,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "لقد استطاع ألكسندر فليمنج أن يكتشف نوعا من العفن، وتبين له أن هذا العفن يفرز مادة تكافح الجراثيم، وبعد ذلك قام باستخراج البنسلين من هذا العفن."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100930045",
+    "original sentence": "إن مدينة الوادي المعروفة بهندستها المعمارية الأصلية، وصناعتها، وبتمورها التي لا مثيل لها، قد تأثرت تأثرًا عميقًا بالثقافة الإسلامية.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1912,
+    "cached_tokens": 1865,
+    "output_tokens": 4516,
+    "cost_usd": 0.027516,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "إن مدينة الوادي مشهورة بهندستها المعمارية الأصلية، وهي مشهورة أيضا بصناعتها، وبتمورها التي لا يوجد مثيل لها في أي مكان آخر، وقد تأثرت هذه المدينة تأثرا كبيرا وعميقا بالثقافة الإسلامية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100930045",
+    "original sentence": "إن مدينة الوادي المعروفة بهندستها المعمارية الأصلية، وصناعتها، وبتمورها التي لا مثيل لها، قد تأثرت تأثرًا عميقًا بالثقافة الإسلامية.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1912,
+    "cached_tokens": 1865,
+    "output_tokens": 4516,
+    "cost_usd": 0.027516,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تعرف مدينة الوادي بهندستها المعمارية الأصلية، كما أنها معروفة بصناعتها وبتمورها التي لا يوجد ما يشبهها.",
+      "وهذه المدينة قد تأثرت تأثرا شديدا وعميقا بالثقافة الإسلامية."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100930045",
+    "original sentence": "إن مدينة الوادي المعروفة بهندستها المعمارية الأصلية، وصناعتها، وبتمورها التي لا مثيل لها، قد تأثرت تأثرًا عميقًا بالثقافة الإسلامية.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1912,
+    "cached_tokens": 1865,
+    "output_tokens": 4516,
+    "cost_usd": 0.027516,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تتصف مدينة الوادي بالهندسة المعمارية الأصلية، وتتميز بصناعتها، وبتمورها التي لا يمكن أن نجد لها مثيلا في أي مكان.",
+      "ومن الواضح أن هذه المدينة تأثرت بشكل عميق بالثقافة الإسلامية."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100940012",
+    "original sentence": "وهو عبارة عن لوحة شرف تحمل أسماء 47 شهيدًا ضحوا بأرواحهم لتحقيق النصر في معركة جزيرة \"شدوان\" البحرية عام 1970م أيام حرب الاستنزاف،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1920,
+    "cached_tokens": 1865,
+    "output_tokens": 5360,
+    "cost_usd": 0.032588,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "إنه عبارة عن لوحة شرف كُتبت عليها أسماء سبعة وأربعين شهيدًا.",
+      "لقد ضحى هؤلاء الشهداء بأرواحهم من أجل أن يحققوا النصر في معركة جزيرة \"شدوان\" البحرية.",
+      "وقد وقعت هذه المعركة في عام 1970م في أيام حرب الاستنزاف."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10100940012",
+    "original sentence": "وهو عبارة عن لوحة شرف تحمل أسماء 47 شهيدًا ضحوا بأرواحهم لتحقيق النصر في معركة جزيرة \"شدوان\" البحرية عام 1970م أيام حرب الاستنزاف،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1920,
+    "cached_tokens": 1865,
+    "output_tokens": 5360,
+    "cost_usd": 0.032588,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "وهو عبارة عن لوحة شرف تحتوي على أسماء 47 شهيدا، وهم الذين ضحوا بأرواحهم لكي يحققوا النصر في معركة جزيرة \"شدوان\" البحرية، التي جرت أحداثها عام 1970م خلال أيام حرب الاستنزاف."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10100940012",
+    "original sentence": "وهو عبارة عن لوحة شرف تحمل أسماء 47 شهيدًا ضحوا بأرواحهم لتحقيق النصر في معركة جزيرة \"شدوان\" البحرية عام 1970م أيام حرب الاستنزاف،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1920,
+    "cached_tokens": 1865,
+    "output_tokens": 5360,
+    "cost_usd": 0.032588,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يعد هذا الأثر بمثابة لوحة شرف تعرض أسماء سبعة وأربعين شهيدا.",
+      "لقد قدم هؤلاء الشهداء أرواحهم ليحققوا الانتصار في معركة جزيرة \"شدوان\" البحرية.",
+      "حدثت تلك المعركة في سنة 1970م أثناء أيام حرب الاستنزاف."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10101300012",
+    "original sentence": "واللفظ حاسبة في اللغة العربية هو اسم فاعل، يدل على من يقوم بفعل الحساب وهو هذه الآلة.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1893,
+    "cached_tokens": 1865,
+    "output_tokens": 4099,
+    "cost_usd": 0.024995,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "تعتبر كلمة حاسبة في قواعد اللغة العربية اسما من نوع اسم الفاعل، وهذا الاسم يدل في معناه على من يقوم بفعل الحساب، والمقصود بهذا الفاعل هنا هو هذه الآلة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101300012",
+    "original sentence": "واللفظ حاسبة في اللغة العربية هو اسم فاعل، يدل على من يقوم بفعل الحساب وهو هذه الآلة.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1893,
+    "cached_tokens": 1865,
+    "output_tokens": 4099,
+    "cost_usd": 0.024995,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "إن لفظ حاسبة في اللغة العربية هو عبارة عن اسم فاعل، وهذا الاسم يدل بشكل مباشر على من يقوم بعملية الحساب، والمقصود بمن يقوم بهذا الفعل هو هذه الآلة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101300012",
+    "original sentence": "واللفظ حاسبة في اللغة العربية هو اسم فاعل، يدل على من يقوم بفعل الحساب وهو هذه الآلة.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1893,
+    "cached_tokens": 1865,
+    "output_tokens": 4099,
+    "cost_usd": 0.024995,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يعد لفظ حاسبة في مفردات اللغة العربية اسما من نوع اسم الفاعل، وهو لفظ يدل في معناه على الشيء الذي ينفذ فعل الحساب، والمقصود بهذا الشيء هو هذه الآلة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101640037",
+    "original sentence": "أنا أشجع الأولاد على القيام بالعمل نفسه لأنه مفيد جداً.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1883,
+    "cached_tokens": 1865,
+    "output_tokens": 3074,
+    "cost_usd": 0.018835,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "أنا أشجع الأولاد وأطلب منهم أن يقوموا بأداء هذا العمل، وأحثهم على المشاركة في إنجازه، والسبب في ذلك هو أن هذا العمل نافع ومفيد جدا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101640037",
+    "original sentence": "أنا أشجع الأولاد على القيام بالعمل نفسه لأنه مفيد جداً.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1883,
+    "cached_tokens": 1865,
+    "output_tokens": 3074,
+    "cost_usd": 0.018835,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "نظرا لأن هذا العمل المعين نافع ومفيد إلى حد كبير جدا، فإنني أحرص على تشجيع الأولاد وأطلب منهم أن يقوموا بأدائه والعمل على إنجازه."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101640037",
+    "original sentence": "أنا أشجع الأولاد على القيام بالعمل نفسه لأنه مفيد جداً.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1883,
+    "cached_tokens": 1865,
+    "output_tokens": 3074,
+    "cost_usd": 0.018835,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "إن هذا العمل يقدم فائدة كبيرة جدا، ولهذا السبب بالتحديد أنا أقوم بتشجيع الأولاد وأطلب منهم أن يشاركوا في القيام بهذا العمل دون غيره."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101700014",
+    "original sentence": "أبطال ونجوم المنافسات الرياضية في الألعاب المختلفة مثل العدو وكرة القدم واليد والسباحة والماراثون وغيرها، يحتاجون إلى نظام غذائي أثناء التدريبات أو الممارسات يضمن توفير أكبر قدر من الطاقة لعضلات الجسم المختلفة، بما في ذلك القلب والرئتين.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1934,
+    "cached_tokens": 1865,
+    "output_tokens": 4019,
+    "cost_usd": 0.024556,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "يحتاج أبطال الرياضة ونجومها في مختلف الألعاب، مثل العدو وكرة القدم واليد والسباحة والماراثون وغيرها، إلى طعام خاص.",
+      "ويجب أن يضمن هذا النظام الغذائي وقت التدريبات أو الممارسات تقديم أكبر كمية من الطاقة لكل عضلات الجسم، ومنها القلب والرئتان."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10101700014",
+    "original sentence": "أبطال ونجوم المنافسات الرياضية في الألعاب المختلفة مثل العدو وكرة القدم واليد والسباحة والماراثون وغيرها، يحتاجون إلى نظام غذائي أثناء التدريبات أو الممارسات يضمن توفير أكبر قدر من الطاقة لعضلات الجسم المختلفة، بما في ذلك القلب والرئتين.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1934,
+    "cached_tokens": 1865,
+    "output_tokens": 4019,
+    "cost_usd": 0.024556,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "إن النجوم والأبطال في المنافسات الرياضية المتنوعة، كالجري وكرة القدم وكرة اليد والسباحة والماراثون وغيرها، يحتاجون إلى نظام طعام محدد.",
+      "وهم يحتاجون إليه خلال التدريبات أو الممارسات لكي يضمن توفير أكبر مقدار من الطاقة لعضلات الجسم المختلفة، مثل القلب والرئتين."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10101700014",
+    "original sentence": "أبطال ونجوم المنافسات الرياضية في الألعاب المختلفة مثل العدو وكرة القدم واليد والسباحة والماراثون وغيرها، يحتاجون إلى نظام غذائي أثناء التدريبات أو الممارسات يضمن توفير أكبر قدر من الطاقة لعضلات الجسم المختلفة، بما في ذلك القلب والرئتين.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1934,
+    "cached_tokens": 1865,
+    "output_tokens": 4019,
+    "cost_usd": 0.024556,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يلزم أبطال ونجوم المنافسات في شتى الرياضات، كالعدو وكرة القدم واليد والسباحة والماراثون وغيرها، نظام غذائي مناسب.",
+      "وهذا النظام مطلوب أثناء التدريب أو الممارسات لكي يوفر أكبر قدر من الطاقة لمختلف العضلات في الجسم، كالقلب والرئتين."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10101950031",
+    "original sentence": "ولعلك تلاحظين أن ما ورد عن البقرة في سورة البقرة، وما ورد عن العجل ابن البقرة في سورتي: \"الأعراف وطه\"، كان في معرض الحديث عن اليهود.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1915,
+    "cached_tokens": 1865,
+    "output_tokens": 5426,
+    "cost_usd": 0.032979,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "ربما تلاحظين أن الكلام الذي ذكر عن البقرة في سورة البقرة، والكلام الذي ذكر عن العجل ابن البقرة في سورتي الأعراف وطه، كان يقال دائما عندما يكون الحديث عن اليهود."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101950031",
+    "original sentence": "ولعلك تلاحظين أن ما ورد عن البقرة في سورة البقرة، وما ورد عن العجل ابن البقرة في سورتي: \"الأعراف وطه\"، كان في معرض الحديث عن اليهود.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1915,
+    "cached_tokens": 1865,
+    "output_tokens": 5426,
+    "cost_usd": 0.032979,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "يمكنك أن تلاحظي بوضوح أن الآيات التي تتحدث عن البقرة في سورة البقرة، والآيات التي تتحدث عن العجل ابن البقرة في سورتي الأعراف وطه، قد وردت أثناء الكلام عن اليهود."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10101950031",
+    "original sentence": "ولعلك تلاحظين أن ما ورد عن البقرة في سورة البقرة، وما ورد عن العجل ابن البقرة في سورتي: \"الأعراف وطه\"، كان في معرض الحديث عن اليهود.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1915,
+    "cached_tokens": 1865,
+    "output_tokens": 5426,
+    "cost_usd": 0.032979,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "لعلك تنتبهين إلى أن ما قيل عن البقرة في سورة البقرة، وما قيل عن العجل ابن البقرة في سورتي الأعراف وطه، قد جاء ضمن سياق الكلام الموجه حول موضوع اليهود."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10102730024",
+    "original sentence": "سيكون مقرها في جنوب السلطنة، وستبلغ طاقتها نحو 1021 ميجاواط.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1891,
+    "cached_tokens": 1865,
+    "output_tokens": 4942,
+    "cost_usd": 0.030051,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "من المقرر أن يقع المقر الخاص بها في المنطقة الجنوبية من أراضي السلطنة، وسوف تبلغ قدرتها الخاصة بالطاقة ما يقارب 1021 ميجاواط."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10102730024",
+    "original sentence": "سيكون مقرها في جنوب السلطنة، وستبلغ طاقتها نحو 1021 ميجاواط.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1891,
+    "cached_tokens": 1865,
+    "output_tokens": 4942,
+    "cost_usd": 0.030051,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "سوف يكون المكان المخصص لمقرها واقعا في المنطقة الجنوبية التابعة للسلطنة، وسوف تبلغ قدرتها الخاصة بإنتاج الطاقة ما يقارب ألفا وواحدا وعشرين ميجاواط."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10102730024",
+    "original sentence": "سيكون مقرها في جنوب السلطنة، وستبلغ طاقتها نحو 1021 ميجاواط.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1891,
+    "cached_tokens": 1865,
+    "output_tokens": 4942,
+    "cost_usd": 0.030051,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "بالنسبة إلى مقرها فإنه سيكون موجودا في الأراضي الواقعة في جنوب السلطنة، وأما مقدار طاقتها فإنه سوف يصل إلى ما يقارب 1021 ميجاواط."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10102850030",
+    "original sentence": "أفريقيا هضبة عظيمة المساحة، متوسطة الارتفاع، تشرف على سهول ساحلية في أغلب الأحيان، أو على أحواض منخفضة أحيانًا أخرى،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1909,
+    "cached_tokens": 1865,
+    "output_tokens": 3507,
+    "cost_usd": 0.021459,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "تعد قارة أفريقيا هضبة كبيرة جدا في مساحتها الكلية، وارتفاع هذه الهضبة يعتبر متوسطا.",
+      "وتطل هذه القارة في أكثر الأوقات على سهول تقع بجانب الساحل، أو تطل على أحواض منخفضة في أوقات أخرى."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10102850030",
+    "original sentence": "أفريقيا هضبة عظيمة المساحة، متوسطة الارتفاع، تشرف على سهول ساحلية في أغلب الأحيان، أو على أحواض منخفضة أحيانًا أخرى،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1909,
+    "cached_tokens": 1865,
+    "output_tokens": 3507,
+    "cost_usd": 0.021459,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تمثل قارة أفريقيا هضبة واسعة جدا من حيث المساحة، كما أن درجة ارتفاعها تعد متوسطة.",
+      "وهي تشرف في غالب الأحيان على سهول تمتد على طول السواحل، أو تشرف أحيانا أخرى على أحواض منخفضة."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10102850030",
+    "original sentence": "أفريقيا هضبة عظيمة المساحة، متوسطة الارتفاع، تشرف على سهول ساحلية في أغلب الأحيان، أو على أحواض منخفضة أحيانًا أخرى،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1909,
+    "cached_tokens": 1865,
+    "output_tokens": 3507,
+    "cost_usd": 0.021459,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تتكون أراضي أفريقيا من هضبة ذات مساحة كبيرة جدا، ويعد ارتفاعها العام متوسطا.",
+      "وتطل هذه الأراضي في معظم الحالات على سهول ساحلية، أو قد تشرف في حالات أخرى على أحواض منخفضة."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10102850041",
+    "original sentence": "والأوتار الصوتية في الحنجرة هي تجعيدات غشائية تفصل بين فتحتين دقيقتين يمر بينهما الهواء الخارج من الرئتين،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1903,
+    "cached_tokens": 1865,
+    "output_tokens": 7853,
+    "cost_usd": 0.047529,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "تمثل الأوتار الصوتية الموجودة في الحنجرة أجزاء رقيقة من الجلد المطوي، وتعمل هذه الأجزاء على الفصل بين فتحتين صغيرتين جدا، حيث يمر من بينهما الهواء الذي يخرج من الرئتين."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10102850041",
+    "original sentence": "والأوتار الصوتية في الحنجرة هي تجعيدات غشائية تفصل بين فتحتين دقيقتين يمر بينهما الهواء الخارج من الرئتين،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1903,
+    "cached_tokens": 1865,
+    "output_tokens": 7853,
+    "cost_usd": 0.047529,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تتألف الأوتار الصوتية الموجودة في الحنجرة من أجزاء رقيقة مطوية على بعضها البعض، وهي تقوم بالفصل بين فتحتين صغيرتين للغاية، ويمر عبر هاتين الفتحتين الهواء القادم من الرئتين."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10102850041",
+    "original sentence": "والأوتار الصوتية في الحنجرة هي تجعيدات غشائية تفصل بين فتحتين دقيقتين يمر بينهما الهواء الخارج من الرئتين،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1903,
+    "cached_tokens": 1865,
+    "output_tokens": 7853,
+    "cost_usd": 0.047529,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "الأوتار الصوتية الموجودة داخل منطقة الحنجرة هي عبارة عن طبقات رقيقة تحتوي على تجعيدات، ومهمتها هي الفصل بين فتحتين صغيرتين جدا، ويعبر من خلال هاتين الفتحتين الهواء الخارج من الرئتين."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10200760012",
+    "original sentence": "عملية تحدث بفعل الكائنات الحية كالنباتات والحيوانات تسمى  (أ) التعرية  (ب) التجوية الكيميائية  (ج) التجوية الحيوية  (د) التجوية الفيزيائية",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1921,
+    "cached_tokens": 1865,
+    "output_tokens": 4493,
+    "cost_usd": 0.027387,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "إن العملية التي تحدث في الطبيعة نتيجة تأثير ونشاط الكائنات الحية، مثل النباتات والحيوانات المتنوعة، تسمى بواحدة من هذه الخيارات: (أ) التعرية، أو (ب) التجوية الكيميائية، أو (ج) التجوية الحيوية، أو (د) التجوية الفيزيائية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10200760012",
+    "original sentence": "عملية تحدث بفعل الكائنات الحية كالنباتات والحيوانات تسمى  (أ) التعرية  (ب) التجوية الكيميائية  (ج) التجوية الحيوية  (د) التجوية الفيزيائية",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1921,
+    "cached_tokens": 1865,
+    "output_tokens": 4493,
+    "cost_usd": 0.027387,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "يطلق على أي عملية تحدث وتتكون بسبب وجود ونشاط الكائنات الحية المختلفة في الطبيعة، كالنباتات والحيوانات، واحدًا من الأسماء التالية: (أ) التعرية، (ب) التجوية الكيميائية، (ج) التجوية الحيوية، (د) التجوية الفيزيائية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10200760012",
+    "original sentence": "عملية تحدث بفعل الكائنات الحية كالنباتات والحيوانات تسمى  (أ) التعرية  (ب) التجوية الكيميائية  (ج) التجوية الحيوية  (د) التجوية الفيزيائية",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1921,
+    "cached_tokens": 1865,
+    "output_tokens": 4493,
+    "cost_usd": 0.027387,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تعرف العملية التي تقع وتحدث نتيجة أفعال الكائنات الحية التي تعيش في البيئة، مثل مختلف النباتات والحيوانات، بأحد هذه الأسماء: (أ) التعرية، (ب) التجوية الكيميائية، (ج) التجوية الحيوية، (د) التجوية الفيزيائية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "10200930008",
+    "original sentence": "ماهو الاسم القديم للعقبة ؟  (أ) أيلة  (ب) يبوس  (ج) إيلياء  (د) يارا",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1900,
+    "cached_tokens": 1865,
+    "output_tokens": 2906,
+    "cost_usd": 0.017844,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "اقرأ هذا السؤال جيدا ثم حاول أن تجد الإجابة الصحيحة من بين الخيارات الأربعة المكتوبة أمامك.",
+      "السؤال هو: ما هو الاسم القديم لمدينة العقبة؟",
+      "هل هو الخيار الأول (أ) أيلة، أو الخيار الثاني (ب) يبوس، أو الخيار الثالث (ج) إيلياء، أو الخيار الرابع (د) يارا؟"
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10200930008",
+    "original sentence": "ماهو الاسم القديم للعقبة ؟  (أ) أيلة  (ب) يبوس  (ج) إيلياء  (د) يارا",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1900,
+    "cached_tokens": 1865,
+    "output_tokens": 2906,
+    "cost_usd": 0.017844,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "مطلوب منك أن تجيب عن هذا السؤال باختيار إجابة واحدة صحيحة من بين الخيارات الأربعة المتاحة لك.",
+      "يقول السؤال: ما هو الاسم القديم الذي كانت تسمى به مدينة العقبة؟",
+      "الخيارات هي: الحرف (أ) أيلة، أو الحرف (ب) يبوس، أو الحرف (ج) إيلياء، أو الحرف (د) يارا."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "10200930008",
+    "original sentence": "ماهو الاسم القديم للعقبة ؟  (أ) أيلة  (ب) يبوس  (ج) إيلياء  (د) يارا",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1900,
+    "cached_tokens": 1865,
+    "output_tokens": 2906,
+    "cost_usd": 0.017844,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "أمامك سؤال يطلب منك أن تحدد الاسم القديم لمدينة العقبة من خلال أربعة خيارات مختلفة.",
+      "حدد الإجابة الصحيحة من بين هذه الخيارات الأربعة التالية: الخيار (أ) وهو أيلة، والخيار (ب) وهو يبوس، والخيار (ج) وهو إيلياء، والخيار (د) وهو يارا."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100400020",
+    "original sentence": "بعد انتهاء الحروب البونيقية، انتقلت المنطقة إلى مرحلة حكم بوكوس الأول وجوبا الثاني، عاهلي مملكة موريطنية، التابعة لروما.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1905,
+    "cached_tokens": 1865,
+    "output_tokens": 4717,
+    "cost_usd": 0.028715,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "بعد أن انتهت الحروب البونيقية، تغير الوضع في المنطقة، وبدأت مرحلة جديدة من الحكم.",
+      "فقد أصبحت المنطقة تحت حكم كل من بوكوس الأول وجوبا الثاني، وكانا يحكمان مملكة موريطنية التي كانت خاضعة لسلطة روما."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100400020",
+    "original sentence": "بعد انتهاء الحروب البونيقية، انتقلت المنطقة إلى مرحلة حكم بوكوس الأول وجوبا الثاني، عاهلي مملكة موريطنية، التابعة لروما.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1905,
+    "cached_tokens": 1865,
+    "output_tokens": 4717,
+    "cost_usd": 0.028715,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "دخلت المنطقة في مرحلة حكم جديدة بعد أن وصلت الحروب البونيقية إلى نهايتها.",
+      "فقد انتقلت السلطة فيها إلى بوكوس الأول وجوبا الثاني، وهما ملكا مملكة موريطنية التي كانت تابعة لحكم روما."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100400020",
+    "original sentence": "بعد انتهاء الحروب البونيقية، انتقلت المنطقة إلى مرحلة حكم بوكوس الأول وجوبا الثاني، عاهلي مملكة موريطنية، التابعة لروما.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1905,
+    "cached_tokens": 1865,
+    "output_tokens": 4717,
+    "cost_usd": 0.028715,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "بمجرد أن انتهت الحروب البونيقية، بدأت مرحلة جديدة في تلك المنطقة بانتقال الحكم فيها إلى بوكوس الأول وجوبا الثاني.",
+      "وهذان الحاكمان كانا ملكين على مملكة موريطنية التي كانت تابعة لروما."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100620013",
+    "original sentence": "فالقطاعات المولِّدة للثروة في ازدياد، كما أن التحرير التدريجي لنظام الصرف وأسواق الرأسمال يرافِق هذه التحولات الجوهرية.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1913,
+    "cached_tokens": 1865,
+    "output_tokens": 7843,
+    "cost_usd": 0.047479,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "إن مجالات العمل والقطاعات التي تصنع الثروة وتنتج الأموال تتزايد وتكثر يوما بعد يوم.",
+      "ويرافق هذه التغيرات الأساسية والكبيرة أننا نرى تخفيفا تدريجيا للقيود المفروضة على نظام تبديل العملات وأسواق المال."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100620013",
+    "original sentence": "فالقطاعات المولِّدة للثروة في ازدياد، كما أن التحرير التدريجي لنظام الصرف وأسواق الرأسمال يرافِق هذه التحولات الجوهرية.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1913,
+    "cached_tokens": 1865,
+    "output_tokens": 7843,
+    "cost_usd": 0.047479,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "إن أعداد القطاعات ومجالات العمل التي تخلق الثروة تشهد تزايدا مستمرا وواضحا.",
+      "وكذلك نلاحظ أن رفع القيود خطوة بخطوة عن قواعد بيع وشراء العملات وعن أسواق المال يسير بالتزامن مع هذه التحولات الجذرية."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100620013",
+    "original sentence": "فالقطاعات المولِّدة للثروة في ازدياد، كما أن التحرير التدريجي لنظام الصرف وأسواق الرأسمال يرافِق هذه التحولات الجوهرية.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1913,
+    "cached_tokens": 1865,
+    "output_tokens": 7843,
+    "cost_usd": 0.047479,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "توجد زيادة كبيرة وملحوظة في أعداد مجالات العمل والقطاعات التي تنتج الثروة وتصنعها.",
+      "وتترافق عملية التخفيف التدريجي للقيود عن قوانين تبادل العملات وأسواق الأموال مع هذه التغيرات والتحولات الأساسية والمهمة."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100730018",
+    "original sentence": "استمرَّ البرامكة في وجودهم في مركز صناعة القرار حتَّى كانت نهايتهم في عهد الخليفة هارون الرشيد الذي قضى عليهم في حدث تاريخي يُسمى نكبة البرامكة.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1915,
+    "cached_tokens": 1865,
+    "output_tokens": 3600,
+    "cost_usd": 0.022023,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "واصل البرامكة تواجدهم في المكان الذي تتخذ فيه القرارات، حتى كانت نهايتهم في زمن الخليفة هارون الرشيد، وهو الذي قضى عليهم في حدث تاريخي يطلق عليه اسم نكبة البرامكة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20100730018",
+    "original sentence": "استمرَّ البرامكة في وجودهم في مركز صناعة القرار حتَّى كانت نهايتهم في عهد الخليفة هارون الرشيد الذي قضى عليهم في حدث تاريخي يُسمى نكبة البرامكة.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1915,
+    "cached_tokens": 1865,
+    "output_tokens": 3600,
+    "cost_usd": 0.022023,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "استمر بقاء البرامكة في مركز اتخاذ القرار، إلى أن جاءت نهايتهم في عهد الخليفة هارون الرشيد، الذي قضى عليهم في حدث تاريخي يحمل اسم نكبة البرامكة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20100730018",
+    "original sentence": "استمرَّ البرامكة في وجودهم في مركز صناعة القرار حتَّى كانت نهايتهم في عهد الخليفة هارون الرشيد الذي قضى عليهم في حدث تاريخي يُسمى نكبة البرامكة.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1915,
+    "cached_tokens": 1865,
+    "output_tokens": 3600,
+    "cost_usd": 0.022023,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "ظل البرامكة موجودين في مركز صناعة القرارات، حتى حدثت نهايتهم في فترة حكم الخليفة هارون الرشيد، حيث قام بالقضاء عليهم في حدث تاريخي يسمى نكبة البرامكة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20100730041",
+    "original sentence": "جعلوا للبرمك ما حول النوبهار من الأراضين سبعة فراسخ،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1888,
+    "cached_tokens": 1865,
+    "output_tokens": 4430,
+    "cost_usd": 0.026976,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "لقد قرروا أن يجعلوا للبرمك كل تلك الأراضي التي تحيط بمكان النوبهار من كل الجهات، وكانت مساحة هذه الأراضي تساوي سبعة فراسخ على وجه التحديد."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20100730041",
+    "original sentence": "جعلوا للبرمك ما حول النوبهار من الأراضين سبعة فراسخ،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1888,
+    "cached_tokens": 1865,
+    "output_tokens": 4430,
+    "cost_usd": 0.026976,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "قاموا بإعطاء البرمك مساحات من الأراضي التي توجد حول منطقة النوبهار.",
+      "وقد امتدت مساحة هذه الأراضي التي منحت له لمسافة تبلغ سبعة فراسخ كاملة."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100730041",
+    "original sentence": "جعلوا للبرمك ما حول النوبهار من الأراضين سبعة فراسخ،",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1888,
+    "cached_tokens": 1865,
+    "output_tokens": 4430,
+    "cost_usd": 0.026976,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "لقد خصصوا للبرمك مساحات ممتدة من الأراضي التي تقع في محيط النوبهار.",
+      "وقد قدرت مسافة هذه الأراضي الممنوحة له بما يعادل سبعة فراسخ بالضبط."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100920015",
+    "original sentence": "كانت هناك محاولات متواضعة من مستشرقين إيطاليين ودنماركيين في القرن السادس عشر إلا أنها لم تكن مثمرة.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1902,
+    "cached_tokens": 1865,
+    "output_tokens": 3963,
+    "cost_usd": 0.024188,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "جرت محاولات بسيطة ومتواضعة من قبل بعض المستشرقين القادمين من إيطاليا وكذلك من الدنمارك في خلال فترة القرن السادس عشر، غير أن هذه المحاولات لم تصل إلى أي نتيجة ولم تكن مثمرة على الإطلاق."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20100920015",
+    "original sentence": "كانت هناك محاولات متواضعة من مستشرقين إيطاليين ودنماركيين في القرن السادس عشر إلا أنها لم تكن مثمرة.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1902,
+    "cached_tokens": 1865,
+    "output_tokens": 3963,
+    "cost_usd": 0.024188,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "في القرن السادس عشر، كانت هناك محاولات صغيرة وبسيطة قام بها عدد من المستشرقين الإيطاليين والمستشرقين الدنماركيين، إلا أن كل تلك المحاولات فشلت ولم تحقق أي ثمار أو نجاح يذكر."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20100920015",
+    "original sentence": "كانت هناك محاولات متواضعة من مستشرقين إيطاليين ودنماركيين في القرن السادس عشر إلا أنها لم تكن مثمرة.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1902,
+    "cached_tokens": 1865,
+    "output_tokens": 3963,
+    "cost_usd": 0.024188,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "حدثت في القرن السادس عشر بعض المحاولات المتواضعة التي قام بها مجموعة من الباحثين المستشرقين من إيطاليا ومن الدنمارك، ولكن هذه الأعمال لم تكن مثمرة ولم تحقق أي هدف من أهدافها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20100960003",
+    "original sentence": "واعتبرت جمهورية الصين عضوا مؤسساً لهيئة الأمم المتحدة وأحد الأعضاء الخمس الدائمين في مجلس الأمن حتى تم تغيير الكيان السياسي وصاحب حق العضوية عام 1971 لحق حكومة جمهورية الصين الشعبية بناءً على القرار رقم 2758 والصادر عن جمعية الأمم المتحدة باعتبار جمهورية الصين الشعبية هي الممثل الشرعي الوحيد لكل الاراضي الصينية بما فيها جزيرة تايوان  بديلا للكيان السياسي الرأسمالي السابق والذي عرف بجمهورية الصين قبل نشوب الحرب الأهلية عام 1949 والتي ترتب عنها سيطرة الشيوعيين على بر الصين الرئيسي المعروف الآن باسم جمهورية الصين الشعبية في حين فرت حكومة جمهورية الصين من بر الصين الرئيسي إلى جزيرة تايوان.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 2043,
+    "cached_tokens": 1865,
+    "output_tokens": 8904,
+    "cost_usd": 0.053975,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "كانت جمهورية الصين من مؤسسي الأمم المتحدة، وواحدة من الأعضاء الخمسة الدائمين في مجلس الأمن.",
+      "وفي سنة 1971، نقلت جمعية الأمم المتحدة حق العضوية إلى جمهورية الصين الشعبية عبر القرار رقم 2758.",
+      "واعتبر القرار أن الصين الشعبية هي الممثل الشرعي الوحيد لكل الأراضي الصينية، ومن ضمنها جزيرة تايوان.",
+      "وبذلك حلت مكان الدولة الرأسمالية السابقة التي عرفت باسم جمهورية الصين قبل الحرب الأهلية في سنة 1949.",
+      "وقد جعلت تلك الحرب الشيوعيين يسيطرون على بر الصين الرئيسي، وهو معروف الآن باسم جمهورية الصين الشعبية.",
+      "وفي ذلك الوقت، هربت حكومة جمهورية الصين من هذا البر الرئيسي إلى جزيرة تايوان."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100960003",
+    "original sentence": "واعتبرت جمهورية الصين عضوا مؤسساً لهيئة الأمم المتحدة وأحد الأعضاء الخمس الدائمين في مجلس الأمن حتى تم تغيير الكيان السياسي وصاحب حق العضوية عام 1971 لحق حكومة جمهورية الصين الشعبية بناءً على القرار رقم 2758 والصادر عن جمعية الأمم المتحدة باعتبار جمهورية الصين الشعبية هي الممثل الشرعي الوحيد لكل الاراضي الصينية بما فيها جزيرة تايوان  بديلا للكيان السياسي الرأسمالي السابق والذي عرف بجمهورية الصين قبل نشوب الحرب الأهلية عام 1949 والتي ترتب عنها سيطرة الشيوعيين على بر الصين الرئيسي المعروف الآن باسم جمهورية الصين الشعبية في حين فرت حكومة جمهورية الصين من بر الصين الرئيسي إلى جزيرة تايوان.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 2043,
+    "cached_tokens": 1865,
+    "output_tokens": 8904,
+    "cost_usd": 0.053975,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "شاركت جمهورية الصين في تأسيس الأمم المتحدة، وكانت أحد الأعضاء الخمسة الدائمين في مجلس الأمن.",
+      "لكن جمعية الأمم المتحدة أصدرت القرار رقم 2758 في سنة 1971، وأعطت حق العضوية لحكومة جمهورية الصين الشعبية.",
+      "واعتبرها القرار الممثل الشرعي الوحيد لجميع الأراضي الصينية، وتدخل ضمنها جزيرة تايوان.",
+      "وبذلك أخذت مكان النظام الرأسمالي السابق الذي عرف بجمهورية الصين قبل قيام الحرب الأهلية في سنة 1949.",
+      "ونتيجة لتلك الحرب، حكم الشيوعيون بر الصين الرئيسي الذي يسمى اليوم جمهورية الصين الشعبية.",
+      "بينما هربت حكومة جمهورية الصين من البر الرئيسي إلى جزيرة تايوان."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100960003",
+    "original sentence": "واعتبرت جمهورية الصين عضوا مؤسساً لهيئة الأمم المتحدة وأحد الأعضاء الخمس الدائمين في مجلس الأمن حتى تم تغيير الكيان السياسي وصاحب حق العضوية عام 1971 لحق حكومة جمهورية الصين الشعبية بناءً على القرار رقم 2758 والصادر عن جمعية الأمم المتحدة باعتبار جمهورية الصين الشعبية هي الممثل الشرعي الوحيد لكل الاراضي الصينية بما فيها جزيرة تايوان  بديلا للكيان السياسي الرأسمالي السابق والذي عرف بجمهورية الصين قبل نشوب الحرب الأهلية عام 1949 والتي ترتب عنها سيطرة الشيوعيين على بر الصين الرئيسي المعروف الآن باسم جمهورية الصين الشعبية في حين فرت حكومة جمهورية الصين من بر الصين الرئيسي إلى جزيرة تايوان.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 2043,
+    "cached_tokens": 1865,
+    "output_tokens": 8904,
+    "cost_usd": 0.053975,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تعتبر جمهورية الصين من الأعضاء المؤسسين للأمم المتحدة، وأحد الأعضاء الخمسة الدائمين في مجلس الأمن.",
+      "وتغير هذا الأمر في سنة 1971 بقرار صدر من جمعية الأمم المتحدة يحمل رقم 2758.",
+      "حيث أصبح حق العضوية من نصيب حكومة جمهورية الصين الشعبية.",
+      "ونص القرار على أنها الممثل الشرعي الوحيد لكل أراضي الصين بما فيها تايوان.",
+      "وبذلك أصبحت بديلا عن الدولة الرأسمالية السابقة التي سميت جمهورية الصين قبل أن تبدأ الحرب الأهلية سنة 1949.",
+      "وبسبب هذه الحرب، سيطر الشيوعيون على بر الصين الرئيسي الذي يسمى الآن جمهورية الصين الشعبية.",
+      "أما حكومة جمهورية الصين فقد هربت منه إلى جزيرة تايوان."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20100960015",
+    "original sentence": "حيث تلعب الصناعات التكنولوجية بها دورا محوريا في اقتصاد العالم.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1884,
+    "cached_tokens": 1865,
+    "output_tokens": 6044,
+    "cost_usd": 0.036656,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "حيث إن الصناعات التكنولوجية الموجودة فيها تقوم بأداء دور مهم وأساسي إلى حد كبير جدا في اقتصاد جميع دول العالم بلا استثناء."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20100960015",
+    "original sentence": "حيث تلعب الصناعات التكنولوجية بها دورا محوريا في اقتصاد العالم.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1884,
+    "cached_tokens": 1865,
+    "output_tokens": 6044,
+    "cost_usd": 0.036656,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تعتبر الصناعات التي تعتمد على التكنولوجيا في تلك المنطقة ذات أهمية كبرى، حيث إنها تلعب دورا أساسيا وبارزا جدا في اقتصاد العالم بشكل عام."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20100960015",
+    "original sentence": "حيث تلعب الصناعات التكنولوجية بها دورا محوريا في اقتصاد العالم.",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1884,
+    "cached_tokens": 1865,
+    "output_tokens": 6044,
+    "cost_usd": 0.036656,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تقوم الصناعات المرتبطة بمجال التكنولوجيا هناك بتأدية وظيفة مركزية ومهمة للغاية، ولها دور كبير وفعال جدا في وضع الاقتصاد في مختلف أنحاء دول العالم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200540014",
+    "original sentence": "البحر الميت ما نوع الحركة فيه ………  (أ) بانجيا  (ب) الحركة التقاربية  (ج) الحركة التباعدية  (د) الحركة الصدعية",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1908,
+    "cached_tokens": 1865,
+    "output_tokens": 6777,
+    "cost_usd": 0.041078,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "لمعرفة نوع الحركة التي توجد في منطقة البحر الميت، يجب أن تختار إجابة واحدة صحيحة من بين هذه الخيارات الأربعة التالية: الخيار الأول بانجيا، أم الخيار الثاني الحركة التقاربية، أم الخيار الثالث الحركة التباعدية، أم الخيار الرابع الحركة الصدعية؟"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200540014",
+    "original sentence": "البحر الميت ما نوع الحركة فيه ………  (أ) بانجيا  (ب) الحركة التقاربية  (ج) الحركة التباعدية  (د) الحركة الصدعية",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1908,
+    "cached_tokens": 1865,
+    "output_tokens": 6777,
+    "cost_usd": 0.041078,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "ما هو نوع الحركة التي تحدث في منطقة البحر الميت من بين هذه الخيارات الأربعة المعروضة أمامك: هل الإجابة هي الحرف (أ) بانجيا، أم الحرف (ب) الحركة التقاربية، أم الحرف (ج) الحركة التباعدية، أم الحرف (د) الحركة الصدعية؟"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200540014",
+    "original sentence": "البحر الميت ما نوع الحركة فيه ………  (أ) بانجيا  (ب) الحركة التقاربية  (ج) الحركة التباعدية  (د) الحركة الصدعية",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1908,
+    "cached_tokens": 1865,
+    "output_tokens": 6777,
+    "cost_usd": 0.041078,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "حدد الإجابة الصحيحة التي توضح لنا نوع الحركة التي يتميز بها مكان البحر الميت، ثم اختر واحدا من الخيارات الأربعة: هل تختار (أ) بانجيا، أو تختار (ب) الحركة التقاربية، أو تختار (ج) الحركة التباعدية، أو تختار (د) الحركة الصدعية؟"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200630006",
+    "original sentence": "الشريعة التي تعتبر أقدم الشرائع المكتوبة في التاريخ البشري.  (أ) شريعة الملك حمورابي  (ب) شريعة الملك نبوخذ نصر  (ج) شريعة الملك شلمنصر  (د) شريعة الملك سرجون",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1930,
+    "cached_tokens": 1865,
+    "output_tokens": 3092,
+    "cost_usd": 0.01899,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "ما هي الشريعة التي تعد أقدم الشرائع المكتوبة في تاريخ البشرية؟",
+      "حدد الإجابة الصحيحة من بين هذه الخيارات: (أ) شريعة الملك حمورابي، (ب) شريعة الملك نبوخذ نصر، (ج) شريعة الملك شلمنصر، (د) شريعة الملك سرجون."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20200630006",
+    "original sentence": "الشريعة التي تعتبر أقدم الشرائع المكتوبة في التاريخ البشري.  (أ) شريعة الملك حمورابي  (ب) شريعة الملك نبوخذ نصر  (ج) شريعة الملك شلمنصر  (د) شريعة الملك سرجون",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1930,
+    "cached_tokens": 1865,
+    "output_tokens": 3092,
+    "cost_usd": 0.01899,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "عين اسم الشريعة التي تعد أقدم شريعة مكتوبة ظهرت في تاريخ البشر من بين الخيارات الآتية: (أ) شريعة الملك حمورابي، أو (ب) شريعة الملك نبوخذ نصر، أو (ج) شريعة الملك شلمنصر، أو (د) شريعة الملك سرجون."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200630006",
+    "original sentence": "الشريعة التي تعتبر أقدم الشرائع المكتوبة في التاريخ البشري.  (أ) شريعة الملك حمورابي  (ب) شريعة الملك نبوخذ نصر  (ج) شريعة الملك شلمنصر  (د) شريعة الملك سرجون",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1930,
+    "cached_tokens": 1865,
+    "output_tokens": 3092,
+    "cost_usd": 0.01899,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "توجد شريعة تصنف على أنها أقدم الشرائع المكتوبة في تاريخ البشرية.",
+      "فما هي هذه الشريعة؟",
+      "هل هي (أ) شريعة الملك حمورابي، أم (ب) شريعة الملك نبوخذ نصر، أم (ج) شريعة الملك شلمنصر، أم (د) شريعة الملك سرجون؟"
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20200630009",
+    "original sentence": "الكرك من مواقع الحضارة:  (أ) الحضارة النبطية  (ب) الحضارة العمونية  (ج) الحضارة الإغريقية  (د) الحضارة المؤابية",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1910,
+    "cached_tokens": 1865,
+    "output_tokens": 4350,
+    "cost_usd": 0.026518,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "تعد مدينة الكرك من المواقع التي تنتمي إلى إحدى الحضارات التالية: أ الحضارة النبطية، ب الحضارة العمونية، ج الحضارة الإغريقية، د الحضارة المؤابية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200630009",
+    "original sentence": "الكرك من مواقع الحضارة:  (أ) الحضارة النبطية  (ب) الحضارة العمونية  (ج) الحضارة الإغريقية  (د) الحضارة المؤابية",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1910,
+    "cached_tokens": 1865,
+    "output_tokens": 4350,
+    "cost_usd": 0.026518,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "إن مدينة الكرك تعتبر موقعا من مواقع إحدى هذه الحضارات: أ الحضارة النبطية، أو ب الحضارة العمونية، أو ج الحضارة الإغريقية، أو د الحضارة المؤابية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200630009",
+    "original sentence": "الكرك من مواقع الحضارة:  (أ) الحضارة النبطية  (ب) الحضارة العمونية  (ج) الحضارة الإغريقية  (د) الحضارة المؤابية",
+    "BAREC-19": "",
+    "BAREC-5": 4,
+    "gold reasons": "",
+    "simplified level": 3,
+    "prompt_tokens": 1910,
+    "cached_tokens": 1865,
+    "output_tokens": 4350,
+    "cost_usd": 0.026518,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تنتمي مدينة الكرك إلى واحدة من الحضارات القديمة الآتية: الخيار الأول الحضارة النبطية، الخيار الثاني الحضارة العمونية، الخيار الثالث الحضارة الإغريقية، الخيار الرابع الحضارة المؤابية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20101450006",
+    "original sentence": "تشمل الجوانب التقليدية المختلفة لعلم الاجتماع التقسيم الطبقي الاجتماعي والطبقة الاجتماعية والحراك الاجتماعي والدين والعلمنة والقانون والجنس والجندر والانحراف.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1241,
+    "cached_tokens": 1200,
+    "output_tokens": 4221,
+    "cost_usd": 0.025607,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "تضم الجوانب التقليدية المختلفة في مجال علم الاجتماع العديد من الموضوعات، وتشمل التقسيم الطبقي الاجتماعي، والطبقة الاجتماعية، والحراك الاجتماعي، بالإضافة إلى الدين، والعلمنة، والقانون، والجنس، والجندر، والانحراف."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20101450006",
+    "original sentence": "تشمل الجوانب التقليدية المختلفة لعلم الاجتماع التقسيم الطبقي الاجتماعي والطبقة الاجتماعية والحراك الاجتماعي والدين والعلمنة والقانون والجنس والجندر والانحراف.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1241,
+    "cached_tokens": 1200,
+    "output_tokens": 4221,
+    "cost_usd": 0.025607,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "توجد الكثير من الجوانب التقليدية المختلفة التي يشملها علم الاجتماع.",
+      "وتتضمن هذه الجوانب التقسيم الطبقي الاجتماعي، والطبقة الاجتماعية، والحراك الاجتماعي، والدين، والعلمنة، والقانون، والجنس، والجندر، والانحراف."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20101450006",
+    "original sentence": "تشمل الجوانب التقليدية المختلفة لعلم الاجتماع التقسيم الطبقي الاجتماعي والطبقة الاجتماعية والحراك الاجتماعي والدين والعلمنة والقانون والجنس والجندر والانحراف.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1241,
+    "cached_tokens": 1200,
+    "output_tokens": 4221,
+    "cost_usd": 0.025607,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تتألف الجوانب التقليدية المتنوعة الخاصة بعلم الاجتماع من مجالات متعددة؛ حيث تشمل التقسيم الطبقي الاجتماعي، والطبقة الاجتماعية، والحراك الاجتماعي، والدين، والعلمنة، والقانون، والجنس، والجندر، والانحراف."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20101540026",
+    "original sentence": "في الجزء الأول من الكتاب الأول من الأكاديميين، قدم شيشرون تقسيم الفلسفة إلى المنطق والفيزياء والأخلاق.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1232,
+    "cached_tokens": 1200,
+    "output_tokens": 4187,
+    "cost_usd": 0.025394,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "في الجزء الأول الذي ورد في الكتاب الأول من الأكاديميين، قام شيشرون بتقديم عرض يوضح تقسيم الفلسفة إلى ثلاثة مجالات رئيسية وهي المنطق والفيزياء والأخلاق."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20101540026",
+    "original sentence": "في الجزء الأول من الكتاب الأول من الأكاديميين، قدم شيشرون تقسيم الفلسفة إلى المنطق والفيزياء والأخلاق.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1232,
+    "cached_tokens": 1200,
+    "output_tokens": 4187,
+    "cost_usd": 0.025394,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "لقد عمل شيشرون في الجزء الأول الموجود داخل الكتاب الأول من الأكاديميين على طرح تقسيم يوزع مجالات الفلسفة إلى ثلاثة أقسام، وهي المنطق والفيزياء والأخلاق."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20101540026",
+    "original sentence": "في الجزء الأول من الكتاب الأول من الأكاديميين، قدم شيشرون تقسيم الفلسفة إلى المنطق والفيزياء والأخلاق.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1232,
+    "cached_tokens": 1200,
+    "output_tokens": 4187,
+    "cost_usd": 0.025394,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "من خلال الجزء الأول الذي يتضمنه الكتاب الأول من الأكاديميين، قام شيشرون بتقديم طريقة يتم فيها تقسيم الفلسفة إلى ثلاثة أقسام، وهي المنطق والفيزياء وكذلك الأخلاق."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20101540039",
+    "original sentence": "على النقيض من ذلك، يرى ديفيد تشالمرز وغيرهم تقدمًا في الفلسفة مشابهًا للتقدم في العلوم، بينما قال تالبوت بروير إن «التقدم» هو المعيار الخاطئ الذي يُحْكَم من خلاله على النشاط الفلسفي.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1266,
+    "cached_tokens": 1200,
+    "output_tokens": 2916,
+    "cost_usd": 0.017802,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "في المقابل، يعتقد ديفيد تشالمرز وأشخاص آخرون أن هناك تقدمًا في مجال الفلسفة يشبه تمامًا التقدم الذي يحدث في مجال العلوم المختلفة، في حين ذكر تالبوت بروير أن استخدام مقياس «التقدم» لتقييم أي نشاط فلسفي هو أمر غير صحيح على الإطلاق."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20101540039",
+    "original sentence": "على النقيض من ذلك، يرى ديفيد تشالمرز وغيرهم تقدمًا في الفلسفة مشابهًا للتقدم في العلوم، بينما قال تالبوت بروير إن «التقدم» هو المعيار الخاطئ الذي يُحْكَم من خلاله على النشاط الفلسفي.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1266,
+    "cached_tokens": 1200,
+    "output_tokens": 2916,
+    "cost_usd": 0.017802,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "في الجهة المقابلة، يظن ديفيد تشالمرز وغيره من المفكرين أن الفلسفة تتطور وتتقدم بصورة مشابهة جدا لما نراه في التطور العلمي الحديث.",
+      "ولكن في الوقت نفسه، أوضح تالبوت بروير أن فكرة «التقدم» تعتبر مقياسا خاطئا وغير مناسب أبدا للحكم على قيمة الأعمال والأنشطة الفلسفية."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "20101540039",
+    "original sentence": "على النقيض من ذلك، يرى ديفيد تشالمرز وغيرهم تقدمًا في الفلسفة مشابهًا للتقدم في العلوم، بينما قال تالبوت بروير إن «التقدم» هو المعيار الخاطئ الذي يُحْكَم من خلاله على النشاط الفلسفي.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1266,
+    "cached_tokens": 1200,
+    "output_tokens": 2916,
+    "cost_usd": 0.017802,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "على العكس من ذلك الرأي، يرى ديفيد تشالمرز وبعض المفكرين الآخرين أن الفلسفة تشهد تطورا ملحوظا يشبه التطور الحاصل في العلوم المتنوعة، بينما صرح تالبوت بروير بأن الاعتماد على مبدأ «التقدم» كمعيار أساسي لتقييم النشاط الفلسفي هو توجه خاطئ لا يصح اعتماده."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200330013",
+    "original sentence": "من القائل: ومن يستغن بالصبر نال مراده ولو بعد حين إنه خير سعد؟  (أ) الكميت  (ب) الطغرائي  (ج) الشنفرى  (د) الفرزدق",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1250,
+    "cached_tokens": 1200,
+    "output_tokens": 7813,
+    "cost_usd": 0.047168,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "من هو الشخص الذي قال هذه العبارة: ومن يستغن بالصبر نال مراده ولو بعد حين إنه خير سعد، أهو: (أ) الكميت، أم (ب) الطغرائي، أم (ج) الشنفرى، أم (د) الفرزدق؟"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200330013",
+    "original sentence": "من القائل: ومن يستغن بالصبر نال مراده ولو بعد حين إنه خير سعد؟  (أ) الكميت  (ب) الطغرائي  (ج) الشنفرى  (د) الفرزدق",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1250,
+    "cached_tokens": 1200,
+    "output_tokens": 7813,
+    "cost_usd": 0.047168,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "حدد من هو القائل للعبارة التالية: ومن يستغن بالصبر نال مراده ولو بعد حين إنه خير سعد، عن طريق اختيار الإجابة الصحيحة من الخيارات الآتية: (أ) الكميت، أو (ب) الطغرائي، أو (ج) الشنفرى، أو (د) الفرزدق."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200330013",
+    "original sentence": "من القائل: ومن يستغن بالصبر نال مراده ولو بعد حين إنه خير سعد؟  (أ) الكميت  (ب) الطغرائي  (ج) الشنفرى  (د) الفرزدق",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1250,
+    "cached_tokens": 1200,
+    "output_tokens": 7813,
+    "cost_usd": 0.047168,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "أخبرنا من هو صاحب هذا القول: ومن يستغن بالصبر نال مراده ولو بعد حين إنه خير سعد، وذلك من خلال تحديد الإجابة الصحيحة من بين هذه الأسماء الأربعة: (أ) الكميت، أو (ب) الطغرائي، أو (ج) الشنفرى، أو (د) الفرزدق."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200330017",
+    "original sentence": "س: من هو الفيلسوف الذي كان تلميذا لسقراط؟  (أ) رع  (ب) طوسون  (ج) أفلاطون",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1239,
+    "cached_tokens": 1200,
+    "output_tokens": 3109,
+    "cost_usd": 0.018933,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "السؤال الموجه إليك هو: من هو الفيلسوف الذي كان تلميذا يتلقى العلم على يد سقراط؟ اختر من بين هذه الإجابات: (أ) رع، أو (ب) طوسون، أو (ج) أفلاطون."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200330017",
+    "original sentence": "س: من هو الفيلسوف الذي كان تلميذا لسقراط؟  (أ) رع  (ب) طوسون  (ج) أفلاطون",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1239,
+    "cached_tokens": 1200,
+    "output_tokens": 3109,
+    "cost_usd": 0.018933,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "لدينا هنا سؤال يطلب منك تحديد من هو الفيلسوف الذي كان تلميذا عند سقراط؟ وتتضمن الخيارات المطروحة أمامك ما يلي: الاختيار (أ) رع، والاختيار (ب) طوسون، والاختيار (ج) أفلاطون."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20200330017",
+    "original sentence": "س: من هو الفيلسوف الذي كان تلميذا لسقراط؟  (أ) رع  (ب) طوسون  (ج) أفلاطون",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1239,
+    "cached_tokens": 1200,
+    "output_tokens": 3109,
+    "cost_usd": 0.018933,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "نطرح عليك هذا السؤال: من هو الفيلسوف الذي كان يعد تلميذا يدرس لدى الفيلسوف سقراط؟ هل الإجابة الصحيحة هي (أ) رع، أم (ب) طوسون، أم (ج) أفلاطون؟"
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "21100070034",
+    "original sentence": "وليس بغثٍّ أن تغثَّ المآكلُ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1215,
+    "cached_tokens": 1200,
+    "output_tokens": 4090,
+    "cost_usd": 0.024795,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "إنه ليس من الأمور السيئة أو المعيبة على الإطلاق أن تكون الأطعمة والوجبات المختلفة التي يتناولها الإنسان في حياته بسيطة، أو قليلة الجودة، أو خالية تماماً من الدسم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "21100070034",
+    "original sentence": "وليس بغثٍّ أن تغثَّ المآكلُ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1215,
+    "cached_tokens": 1200,
+    "output_tokens": 4090,
+    "cost_usd": 0.024795,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "لا يُعتبر نقص جودة الطعام أو بساطته ورداءته أمراً معيباً أو سيئاً بحد ذاته، فليس هناك أي ضرر أو عيب حقيقي في أن تكون المأكولات التي نعتمد عليها متواضعة أو غير فاخرة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "21100070034",
+    "original sentence": "وليس بغثٍّ أن تغثَّ المآكلُ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1215,
+    "cached_tokens": 1200,
+    "output_tokens": 4090,
+    "cost_usd": 0.024795,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "إن رداءة أنواع الطعام التي تُقدم للناس أو التي يستهلكونها لا تُعد شيئاً فاسداً أو معيباً يستحق الذم، فليس من العيب أبداً أن تكون الأطعمة التي نأكلها خالية من الدسم أو فقيرة الجودة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100780022",
+    "original sentence": "وَصَوْلَةِ نَابُلْيُونَ فِي حَوْمَةِ الْوَغَى وَحِكْمَةِ لُقْمَانٍ وَأَيْدِي ذَوِي الْبِرِّ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1249,
+    "cached_tokens": 1200,
+    "output_tokens": 4328,
+    "cost_usd": 0.026257,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "ومثل قوة وشجاعة هجوم القائد نابليون الشديدة في وسط ساحات المعارك والحروب المشتعلة، وحكمة لقمان العظيمة والعميقة، وكذلك عطاء وأيادي أصحاب الخير والفضل والإحسان الواسعة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100780022",
+    "original sentence": "وَصَوْلَةِ نَابُلْيُونَ فِي حَوْمَةِ الْوَغَى وَحِكْمَةِ لُقْمَانٍ وَأَيْدِي ذَوِي الْبِرِّ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1249,
+    "cached_tokens": 1200,
+    "output_tokens": 4328,
+    "cost_usd": 0.026257,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "إلى جانب شجاعة وبسالة القائد نابليون الكبيرة في قلب ساحات القتال والحروب القاسية، والذكاء العميق وحكمة لقمان الشهيرة، والأيادي الكريمة التي يتميز بها أهل الخير والتقوى."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100780022",
+    "original sentence": "وَصَوْلَةِ نَابُلْيُونَ فِي حَوْمَةِ الْوَغَى وَحِكْمَةِ لُقْمَانٍ وَأَيْدِي ذَوِي الْبِرِّ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1249,
+    "cached_tokens": 1200,
+    "output_tokens": 4328,
+    "cost_usd": 0.026257,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "ويضاف إلى ذلك كله شدة هجوم القائد نابليون وقوته العظيمة في وسط ميادين المعارك والحروب الطاحنة، وما يتمتع به لقمان من حكمة واسعة، وفضل وعطاء الأشخاص الصالحين الكرام."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100780047",
+    "original sentence": "غَدَرَتْ فَغَادَرَتِ الْفُؤَادَ عَلِيلَا هَيْفَاءُ أَبْدَتْ لَحْظَهَا الْمَسْلُولَا",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1246,
+    "cached_tokens": 1200,
+    "output_tokens": 3013,
+    "cost_usd": 0.018364,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "لقد خانتني تلك المرأة الجميلة الرشيقة ذات القوام النحيف، وابتعدت عني فجأة.",
+      "وبسبب هذا الغدر تركت قلبي مريضا حزينا يتألم من شدة الفراق، خاصة عندما وجهت إلي نظرات عينيها الحادة التي تشبه السيف المسحوب."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "30100780047",
+    "original sentence": "غَدَرَتْ فَغَادَرَتِ الْفُؤَادَ عَلِيلَا هَيْفَاءُ أَبْدَتْ لَحْظَهَا الْمَسْلُولَا",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1246,
+    "cached_tokens": 1200,
+    "output_tokens": 3013,
+    "cost_usd": 0.018364,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تسببت هذه الفتاة الرشيقة في ألم كبير لي بسبب غدرها ونقضها للعهود.",
+      "لقد مضت وتركت فؤادي مجروحا يعاني من المرض والضعف، بعدما أظهرت لي نظراتها القوية الساحرة التي تقطع في القلب تماما كالسيف اللامع."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "30100780047",
+    "original sentence": "غَدَرَتْ فَغَادَرَتِ الْفُؤَادَ عَلِيلَا هَيْفَاءُ أَبْدَتْ لَحْظَهَا الْمَسْلُولَا",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1246,
+    "cached_tokens": 1200,
+    "output_tokens": 3013,
+    "cost_usd": 0.018364,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "إن تلك الحسناء ذات الجسم الرشيق قد نقضت عهدها معي وغدرت بي.",
+      "لذلك جعلت قلبي عليلا متعبا ينزف حزنا وألما، حين رمتني بنظرة قاطعة من عينيها الساحرتين تشبه السيف الحاد المرفوع للقتال."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "30100790044",
+    "original sentence": "ويُعرف هذا النوع من التغير في الهيئة أو الوظيفة استجابةً للظروف البيئية الديناميكية باسم: مرونة النمط الظاهري.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1239,
+    "cached_tokens": 1200,
+    "output_tokens": 2916,
+    "cost_usd": 0.017775,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "ويُطلق على هذا النوع من التغير الذي يحدث في شكل الكائن الحي أو في طريقة عمل وظائفه، وذلك بغرض الاستجابة المباشرة للظروف البيئية المتغيرة باستمرار، مصطلح علمي معروف باسم: مرونة النمط الظاهري."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100790044",
+    "original sentence": "ويُعرف هذا النوع من التغير في الهيئة أو الوظيفة استجابةً للظروف البيئية الديناميكية باسم: مرونة النمط الظاهري.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1239,
+    "cached_tokens": 1200,
+    "output_tokens": 2916,
+    "cost_usd": 0.017775,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "إن هذا التبدل أو التغير الذي يطرأ على هيئة الكائنات الحية أو على وظائفها الطبيعية كنتيجة مباشرة للتفاعل مع الظروف البيئية الدائمة التغير والحركة، هو ما يُعرف في المجال العلمي باسم: مرونة النمط الظاهري."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100790044",
+    "original sentence": "ويُعرف هذا النوع من التغير في الهيئة أو الوظيفة استجابةً للظروف البيئية الديناميكية باسم: مرونة النمط الظاهري.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1239,
+    "cached_tokens": 1200,
+    "output_tokens": 2916,
+    "cost_usd": 0.017775,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يُعرف هذا النمط من التحول الذي يصيب الشكل الخارجي أو الوظيفة الحيوية كرد فعل طبيعي للتعامل مع العوامل البيئية المتجددة والديناميكية، بين المتخصصين في هذا المجال العلمي بمصطلح يطلق عليه اسم: مرونة النمط الظاهري."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101070014",
+    "original sentence": "فإذا جاوز ملطية قفز قفزة فُجائية كأنه يحاول الفرار إلى الجنوب الغربي، فيخدِّس لنفسه معبرًا في الطورس، طالبًا بحر الروم الذي يميل إليه كل الميل، ثم كمن يرعوي عن غيه يعود إلى الجنوب الشرقي في جهة خليج فارس.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1279,
+    "cached_tokens": 1200,
+    "output_tokens": 4357,
+    "cost_usd": 0.026461,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "وعندما يتجاوز مدينة ملطية، ينحرف بشكل مفاجئ وكأنه يحاول الهروب نحو الجنوب الغربي، وهناك يشق لنفسه طريقا عبر جبال طوروس محاولا الوصول إلى البحر المتوسط الذي ينجذب إليه بشدة، ولكنه بعد ذلك وكأنه يتراجع عن خطئه ويعود إلى صوابه، يغير مساره مرة أخرى متجها نحو الجنوب الشرقي في طريق خليج فارس."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101070014",
+    "original sentence": "فإذا جاوز ملطية قفز قفزة فُجائية كأنه يحاول الفرار إلى الجنوب الغربي، فيخدِّس لنفسه معبرًا في الطورس، طالبًا بحر الروم الذي يميل إليه كل الميل، ثم كمن يرعوي عن غيه يعود إلى الجنوب الشرقي في جهة خليج فارس.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1279,
+    "cached_tokens": 1200,
+    "output_tokens": 4357,
+    "cost_usd": 0.026461,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "بمجرد أن يمر بمدينة ملطية، يغير اتجاهه فجأة وكأنه يهرب إلى جهة الجنوب الغربي، حيث يحفر لنفسه ممرا في جبال طوروس قاصدا البحر الأبيض المتوسط الذي يميل إليه ميلا شديدا، ثم يبدو بعد ذلك وكأنه يدرك خطأه فيتراجع عنه، ليعود ويتجه نحو الجنوب الشرقي قاصدا خليج فارس."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101070014",
+    "original sentence": "فإذا جاوز ملطية قفز قفزة فُجائية كأنه يحاول الفرار إلى الجنوب الغربي، فيخدِّس لنفسه معبرًا في الطورس، طالبًا بحر الروم الذي يميل إليه كل الميل، ثم كمن يرعوي عن غيه يعود إلى الجنوب الشرقي في جهة خليج فارس.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1279,
+    "cached_tokens": 1200,
+    "output_tokens": 4357,
+    "cost_usd": 0.026461,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "حين يعبر منطقة ملطية فإنه يقوم بانعطاف مفاجئ كأنه يريد الفرار باتجاه الجنوب الغربي، ويفتح لنفسه طريقا بين جبال طوروس باحثا عن بحر الروم الذي يتجه إليه بقوة، لكنه سرعان ما يتصرف كشخص تراجع عن مساره الخاطئ، فيعود مرة أخرى ليتدفق نحو الجنوب الشرقي باتجاه خليج فارس."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101130022",
+    "original sentence": "وتماشيًا مع الفلسفة الاقتصادية السائدة آنذاك — المذهب المركنتلي (التجاري) — كانت هذه التجارة برمتها تُدار في شكل احتكار كي تعود بأعلى الأرباح على المملكة الفرنسية ومن ينوبون عنها.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1260,
+    "cached_tokens": 1200,
+    "output_tokens": 3823,
+    "cost_usd": 0.023238,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "وبناءً على الفكرة الاقتصادية التي كانت منتشرة في ذلك الوقت، والتي تُعرف باسم المذهب التجاري، كانت كل هذه التجارة تدار بطريقة الاحتكار، وذلك لكي تحقق أكبر قدر ممكن من الأرباح المالية للدولة الفرنسية وللأشخاص الذين يمثلونها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101130022",
+    "original sentence": "وتماشيًا مع الفلسفة الاقتصادية السائدة آنذاك — المذهب المركنتلي (التجاري) — كانت هذه التجارة برمتها تُدار في شكل احتكار كي تعود بأعلى الأرباح على المملكة الفرنسية ومن ينوبون عنها.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1260,
+    "cached_tokens": 1200,
+    "output_tokens": 3823,
+    "cost_usd": 0.023238,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "وموافقةً للتوجه الاقتصادي السائد في تلك الفترة، وهو ما يسمى بالمذهب التجاري، فقد تم التحكم في هذه التجارة كاملة عبر نظام الاحتكار؛ من أجل جلب أعلى المكاسب الممكنة لصالح المملكة الفرنسية والجهات التي تنوب عنها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101130022",
+    "original sentence": "وتماشيًا مع الفلسفة الاقتصادية السائدة آنذاك — المذهب المركنتلي (التجاري) — كانت هذه التجارة برمتها تُدار في شكل احتكار كي تعود بأعلى الأرباح على المملكة الفرنسية ومن ينوبون عنها.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1260,
+    "cached_tokens": 1200,
+    "output_tokens": 3823,
+    "cost_usd": 0.023238,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "لقد توافقت طريقة إدارة كل هذه التجارة مع الفكر الاقتصادي الذي كان منتشرا حينها والمعروف باسم المذهب التجاري، حيث جرت إدارتها بنظام الاحتكار التام بهدف تحقيق أعلى نسبة من الأرباح لصالح الحكومة الفرنسية وكل من يمثلها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101230030",
+    "original sentence": "فقد جاء في إلياذة هوميروس: أن سلاح ديوميد قدر بتسعة ثيران، كما قدر سلاح جلوكوس بمائة ثور، وقدرت الجارية بأربعة ثيران،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1248,
+    "cached_tokens": 1200,
+    "output_tokens": 3804,
+    "cost_usd": 0.023112,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "لقد ذكر في كتاب إلياذة هوميروس أن ثمن سلاح ديوميد قد تم تقديره بتسعة ثيران، كما تم تقدير ثمن سلاح جلوكوس بمائة ثور، وتم تقدير ثمن الجارية بأربعة ثيران."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101230030",
+    "original sentence": "فقد جاء في إلياذة هوميروس: أن سلاح ديوميد قدر بتسعة ثيران، كما قدر سلاح جلوكوس بمائة ثور، وقدرت الجارية بأربعة ثيران،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1248,
+    "cached_tokens": 1200,
+    "output_tokens": 3804,
+    "cost_usd": 0.023112,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أوضح النص الموجود في إلياذة هوميروس أن قيمة السلاح الخاص بديوميد كانت تعادل تسعة ثيران، بينما كانت قيمة سلاح جلوكوس تعادل مائة ثور، وكانت قيمة الجارية تعادل أربعة ثيران."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101230030",
+    "original sentence": "فقد جاء في إلياذة هوميروس: أن سلاح ديوميد قدر بتسعة ثيران، كما قدر سلاح جلوكوس بمائة ثور، وقدرت الجارية بأربعة ثيران،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1248,
+    "cached_tokens": 1200,
+    "output_tokens": 3804,
+    "cost_usd": 0.023112,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "لقد ورد في إلياذة هوميروس أن السلاح الذي يملكه ديوميد قد تم تقييمه بتسعة ثيران، كما تم تقييم السلاح الذي يملكه جلوكوس بمائة ثور، وتم تقييم الجارية بأربعة ثيران."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101280021",
+    "original sentence": "وقدَّم فرويد في هذا الصدد كتابين؛ هما النكات وعلاقتها باللاشعور، والفكاهة.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1231,
+    "cached_tokens": 1200,
+    "output_tokens": 3913,
+    "cost_usd": 0.023749,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "لقد قام الكاتب فرويد في هذا السياق والموضوع بكتابة وتقديم كتابين اثنين إلى القراء؛ يحمل الكتاب الأول اسم النكات وعلاقتها باللاشعور، ويحمل الكتاب الثاني اسم الفكاهة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101280021",
+    "original sentence": "وقدَّم فرويد في هذا الصدد كتابين؛ هما النكات وعلاقتها باللاشعور، والفكاهة.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1231,
+    "cached_tokens": 1200,
+    "output_tokens": 3913,
+    "cost_usd": 0.023749,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أصدر فرويد في هذا الشأن بالتحديد عملين مطبوعين في شكل كتابين؛ حيث جاء الكتاب الأول بعنوان النكات وعلاقتها باللاشعور، وجاء الكتاب الآخر يحمل عنوان الفكاهة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101280021",
+    "original sentence": "وقدَّم فرويد في هذا الصدد كتابين؛ هما النكات وعلاقتها باللاشعور، والفكاهة.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1231,
+    "cached_tokens": 1200,
+    "output_tokens": 3913,
+    "cost_usd": 0.023749,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "قدم فرويد في هذا الإطار الخاص بالموضوع كتابين اثنين للقراءة؛ وقد أطلق على الكتاب الأول اسم النكات وعلاقتها باللاشعور، بينما أطلق على الكتاب الثاني اسم الفكاهة."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20900070026",
+    "original sentence": "استمتعت بهذه السياحة ساعات وساعات،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1211,
+    "cached_tokens": 1200,
+    "output_tokens": 4590,
+    "cost_usd": 0.027791,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "إن استمتاعي الكبير بهذه الجولة السياحية المحددة قد استمر وتواصل لفترة زمنية طويلة جدا، حيث إنني بقيت في هذه الحالة من السرور ساعات متتالية وساعات أخرى تليها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20900070026",
+    "original sentence": "استمتعت بهذه السياحة ساعات وساعات،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1211,
+    "cached_tokens": 1200,
+    "output_tokens": 4590,
+    "cost_usd": 0.027791,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "لقد استمتعت أنا نفسي استمتاعا حقيقيا بهذه السياحة عينها، وقد استمر هذا الاستمتاع كله طوال فترة زمنية امتدت لساعات كثيرة متواصلة، وساعات أخرى أعقبتها."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "20900070026",
+    "original sentence": "استمتعت بهذه السياحة ساعات وساعات،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1211,
+    "cached_tokens": 1200,
+    "output_tokens": 4590,
+    "cost_usd": 0.027791,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "لقد حصلت على متعة كبيرة جدا بسبب هذه السياحة، وظللت أستشعر هذا السرور البالغ فترة زمنية طويلة امتدت لتشمل ساعات كثيرة وساعات أخرى متتالية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100660016",
+    "original sentence": "بنهمٍ معرفيٍّ يتنامى، رُحتُ ألتهم المراجعَ الخاصة ب «الأخطاء والاستدلال بالحدْس «المُدرَّب»»،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1242,
+    "cached_tokens": 1200,
+    "output_tokens": 4188,
+    "cost_usd": 0.02541,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "باندفاع شديد ورغبة كبيرة تزداد باستمرار نحو اكتساب المعرفة، بدأت أقرأ بشغف واهتمام بالغ جميع المصادر والكتب المتعلقة بموضوع «الأخطاء والاستنتاج من خلال الحدس المُدرَّب»."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100660016",
+    "original sentence": "بنهمٍ معرفيٍّ يتنامى، رُحتُ ألتهم المراجعَ الخاصة ب «الأخطاء والاستدلال بالحدْس «المُدرَّب»»،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1242,
+    "cached_tokens": 1200,
+    "output_tokens": 4188,
+    "cost_usd": 0.02541,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "مع ازدياد حاجتي ورغبتي القوية في التعلم والفهم، انطلقت أقرأ وأستوعب بسرعة وتركيز شديدين تلك المراجع التي تناقش مسألة «الأخطاء والوصول إلى الأدلة بواسطة الحدس المُدرَّب»."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100660016",
+    "original sentence": "بنهمٍ معرفيٍّ يتنامى، رُحتُ ألتهم المراجعَ الخاصة ب «الأخطاء والاستدلال بالحدْس «المُدرَّب»»،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1242,
+    "cached_tokens": 1200,
+    "output_tokens": 4188,
+    "cost_usd": 0.02541,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "بسبب الشوق الشديد إلى المعرفة الذي كان يتزايد في داخلي يوما بعد يوم، شرعت أقرأ بشراهة تامة كل المراجع المرتبطة بموضوع «الأخطاء والاستدلال باستخدام الحدس المُدرَّب»."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100750017",
+    "original sentence": "ولم يدخل هذان العالَمان في صلة مباشرة مع بعضهما إلَّا عندما عدت الظلمة على النور ودخلت في نسيجه، فكان لا بد من الفصل بينهما مجددًا، وهذا هو معتقد المانوية.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1258,
+    "cached_tokens": 1200,
+    "output_tokens": 2289,
+    "cost_usd": 0.014032,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "وهذان العالمان لم يتواصلا بشكل مباشر قط إلا في الوقت الذي هجمت فيه الظلمة على النور واختلطت بمكوناته، ولذلك أصبح من الضروري أن يُفصل بينهما من جديد، وهذا الأمر يمثل المعتقد الأساسي في الديانة المانوية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100750017",
+    "original sentence": "ولم يدخل هذان العالَمان في صلة مباشرة مع بعضهما إلَّا عندما عدت الظلمة على النور ودخلت في نسيجه، فكان لا بد من الفصل بينهما مجددًا، وهذا هو معتقد المانوية.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1258,
+    "cached_tokens": 1200,
+    "output_tokens": 2289,
+    "cost_usd": 0.014032,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "لم تكن هناك أي صلة مباشرة تجمع بين هذين العالمين حتى حدث اعتداء من الظلام على النور وامتزج بتفاصيله امتزاجا شديدا، مما جعل عملية الفصل بينهما أمرا حتميا مرة أخرى، وهذه الفكرة هي التي تقوم عليها العقيدة المانوية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100750017",
+    "original sentence": "ولم يدخل هذان العالَمان في صلة مباشرة مع بعضهما إلَّا عندما عدت الظلمة على النور ودخلت في نسيجه، فكان لا بد من الفصل بينهما مجددًا، وهذا هو معتقد المانوية.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1258,
+    "cached_tokens": 1200,
+    "output_tokens": 2289,
+    "cost_usd": 0.014032,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "إن التواصل المباشر بين هذين العالمين لم يحدث على الإطلاق إلا عندما تجاوزت الظلمة حدودها واقتحمت النور وتداخلت معه تماما، وبناء على ذلك كان لزاما أن يُفصل النور عن الظلام مجددا، وهذا التفسير هو جوهر ما تؤمن به المانوية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100750019",
+    "original sentence": "وأمَّا الثنوية المعتدلة فتقول بمبدأ واحد وأصل واحد قديم وأزلي هو إله الأنوار الأعلى، ثم إنَّ هذا الإله الأعلى قد خلق إلهًا أدنى منه مرتبةً قام بدوره بخلق العالم المادي.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1261,
+    "cached_tokens": 1200,
+    "output_tokens": 3935,
+    "cost_usd": 0.023911,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "تعتقد مدرسة الثنوية المعتدلة بوجود أصل واحد فقط منذ القدم لا بداية له، وهو ما يسمونه إله الأنوار الأعلى.",
+      "وتضيف أن هذا الإله العظيم قد أوجد إلها آخر أقل منه في المنزلة والمكانة، وهذا الإله الثاني هو الذي تولى مهمة صناعة الكون المادي وخلقه."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "30100750019",
+    "original sentence": "وأمَّا الثنوية المعتدلة فتقول بمبدأ واحد وأصل واحد قديم وأزلي هو إله الأنوار الأعلى، ثم إنَّ هذا الإله الأعلى قد خلق إلهًا أدنى منه مرتبةً قام بدوره بخلق العالم المادي.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1261,
+    "cached_tokens": 1200,
+    "output_tokens": 3935,
+    "cost_usd": 0.023911,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "يرى أصحاب مذهب الثنوية المعتدلة أن هناك أصلا واحدا قديما ليس له بداية، وهو إله الأنوار الأعلى.",
+      "ويقولون إن هذا الإله الأعلى قد صنع إلها آخر أقل منه في الدرجة، ثم قام هذا الإله الأصغر بخلق هذا العالم المادي الذي نعيش فيه."
+    ],
+    "predicted reasons": [],
+    "was_split": true
+  },
+  {
+    "ID": "30100750019",
+    "original sentence": "وأمَّا الثنوية المعتدلة فتقول بمبدأ واحد وأصل واحد قديم وأزلي هو إله الأنوار الأعلى، ثم إنَّ هذا الإله الأعلى قد خلق إلهًا أدنى منه مرتبةً قام بدوره بخلق العالم المادي.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1261,
+    "cached_tokens": 1200,
+    "output_tokens": 3935,
+    "cost_usd": 0.023911,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تذهب فرقة الثنوية المعتدلة في تفكيرها إلى الاعتماد على مبدأ وحيد وأصل قديم دائم لا يزول يعبرون عنه باسم إله الأنوار الأعلى، وتؤمن بأن هذا الإله الأول قد خلق إلها ثانيا أدنى منه في المرتبة ليتولى هو عملية خلق كل الأشياء المادية في الكون."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100750031",
+    "original sentence": "والتاو ليس شخصية إلهية بل هو القاع الكلي للوجود، والحقيقة المطلقة التي يقوم بها كل نسبي،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1230,
+    "cached_tokens": 1200,
+    "output_tokens": 3400,
+    "cost_usd": 0.02067,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "إن التاو لا يمثل شخصية إلهية محددة، بل هو الأساس الشامل لكل ما في الوجود، وهو الحقيقة المطلقة التي يستند إليها وجود كل شيء نسبي."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100750031",
+    "original sentence": "والتاو ليس شخصية إلهية بل هو القاع الكلي للوجود، والحقيقة المطلقة التي يقوم بها كل نسبي،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1230,
+    "cached_tokens": 1200,
+    "output_tokens": 3400,
+    "cost_usd": 0.02067,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "لا يعتبر التاو ذاتا إلهية تتصف بصفات الأشخاص، وإنما هو الأصل الكلي الذي يبنى عليه الوجود كله، وهو الحقيقة المطلقة التي يرتكز عليها كل أمر نسبي."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30100750031",
+    "original sentence": "والتاو ليس شخصية إلهية بل هو القاع الكلي للوجود، والحقيقة المطلقة التي يقوم بها كل نسبي،",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1230,
+    "cached_tokens": 1200,
+    "output_tokens": 3400,
+    "cost_usd": 0.02067,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "إن التاو ليس عبارة عن شخصية إلهية، بل يمثل القاعدة الكلية التي يقوم عليها الوجود بأسره، وهو الحقيقة المطلقة التي يعتمد عليها كل شيء نسبي في وجوده."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101260016",
+    "original sentence": "لعل نجاح خالد عبد الغني في التحرُّر من تأثيرات من سبقوه على هذا الدرب الشاق في التفسير السيكولوجي هو ما أغراه بالانتقال من تحليل وظيفة الرمز Symbolic Function إلى اقتراح دمجه ضمن الوسائط المختزلة للوقائع البشرية، خاصةً الاستثنائي منها ليتم بهذا الدمج فهم الواقع على نحو أكثر ثراءً.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1287,
+    "cached_tokens": 1200,
+    "output_tokens": 2699,
+    "cost_usd": 0.016521,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "ربما يكون نجاح الباحث خالد عبد الغني في التخلص من تأثيرات العلماء الذين سبقوه في هذا الطريق الصعب الخاص بالتفسير النفسي، هو الدافع الذي شجعه على الانتقال من مجرد دراسة وتحليل وظيفة الرمز، إلى تقديم اقتراح بدمج هذا الرمز مع الوسائل التي تلخص وتكثف الأحداث البشرية، ولا سيما الأحداث النادرة والاستثنائية، وذلك من أجل الوصول إلى فهم أعمق وأكثر غنى للواقع الذي نعيشه."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101260016",
+    "original sentence": "لعل نجاح خالد عبد الغني في التحرُّر من تأثيرات من سبقوه على هذا الدرب الشاق في التفسير السيكولوجي هو ما أغراه بالانتقال من تحليل وظيفة الرمز Symbolic Function إلى اقتراح دمجه ضمن الوسائط المختزلة للوقائع البشرية، خاصةً الاستثنائي منها ليتم بهذا الدمج فهم الواقع على نحو أكثر ثراءً.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1287,
+    "cached_tokens": 1200,
+    "output_tokens": 2699,
+    "cost_usd": 0.016521,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "يبدو أن نجاح خالد عبد الغني في الاستقلال عن أفكار من سبقوه في مسار التفسير النفسي المعقد، هو الذي دفعه إلى الانتقال من الاكتفاء بتحليل وظيفة الرمز إلى المطالبة بدمجه ضمن الأدوات التي تلخص وتختصر الوقائع الإنسانية، وتحديدا الوقائع الاستثنائية منها، حتى نتمكن من خلال هذا الدمج من فهم الواقع بصورة أوسع وأكثر ثراء."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30101260016",
+    "original sentence": "لعل نجاح خالد عبد الغني في التحرُّر من تأثيرات من سبقوه على هذا الدرب الشاق في التفسير السيكولوجي هو ما أغراه بالانتقال من تحليل وظيفة الرمز Symbolic Function إلى اقتراح دمجه ضمن الوسائط المختزلة للوقائع البشرية، خاصةً الاستثنائي منها ليتم بهذا الدمج فهم الواقع على نحو أكثر ثراءً.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1287,
+    "cached_tokens": 1200,
+    "output_tokens": 2699,
+    "cost_usd": 0.016521,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "من المحتمل أن قدرة خالد عبد الغني على التحرر من قيود وتأثيرات الباحثين السابقين في مسيرة التفسير النفسي الشاقة، هي التي حفزته ليتجاوز عملية تحليل وظيفة الرمز، ويتجه نحو اقتراح إدخال هذا الرمز ضمن الوسائط التي تختصر الأحداث البشرية، وبخاصة المواقف النادرة، لكي يحقق بهذا الدمج فهما أعمق وأكثر شمولا للواقع المحيط بنا."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30200140013",
+    "original sentence": "المقصود بموقع هذه الخلايا وانتشارها يدعم النبات  (أ) الخلايا الاسكلرنشيميه والكولنشيميه  (ب) البرنشيميه والكولنشيميه  (ج) الكلورنشيميه والبرانشيميه",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1260,
+    "cached_tokens": 1200,
+    "output_tokens": 3332,
+    "cost_usd": 0.020292,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "أي من الخيارات التالية يمثل الخلايا التي يكون الهدف من موقعها وانتشارها في أجزاء النبات المختلفة هو تقديم الدعم والتقوية للنبات؟ (أ) الخلايا الاسكلرنشيمية والخلايا الكولنشيمية، (ب) الخلايا البرنشيمية والخلايا الكولنشيمية، (ج) الخلايا الكلورنشيمية والخلايا البرانشيمية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30200140013",
+    "original sentence": "المقصود بموقع هذه الخلايا وانتشارها يدعم النبات  (أ) الخلايا الاسكلرنشيميه والكولنشيميه  (ب) البرنشيميه والكولنشيميه  (ج) الكلورنشيميه والبرانشيميه",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1260,
+    "cached_tokens": 1200,
+    "output_tokens": 3332,
+    "cost_usd": 0.020292,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "إن الخلايا التي يتمثل دورها الأساسي في دعم النبات وتقويته من خلال موقعها وتوزيعها وانتشارها في أنسجته هي: (أ) الخلايا الاسكلرنشيمية والخلايا الكولنشيمية، (ب) الخلايا البرنشيمية والخلايا الكولنشيمية، (ج) الخلايا الكلورنشيمية والخلايا البرانشيمية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30200140013",
+    "original sentence": "المقصود بموقع هذه الخلايا وانتشارها يدعم النبات  (أ) الخلايا الاسكلرنشيميه والكولنشيميه  (ب) البرنشيميه والكولنشيميه  (ج) الكلورنشيميه والبرانشيميه",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1260,
+    "cached_tokens": 1200,
+    "output_tokens": 3332,
+    "cost_usd": 0.020292,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "المقصود بالخلايا التي تعمل على دعم هيكل النبات من خلال أماكن وجودها وطريقة انتشارها بين الأنسجة النباتية هو واحد من الخيارات الآتية: (أ) الخلايا الاسكلرنشيمية والكولنشيمية، (ب) الخلايا البرنشيمية والكولنشيمية، (ج) الخلايا الكلورنشيمية والبرانشيمية."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30200150001",
+    "original sentence": "تنتج جزيئات ATP في جميع المراحل التالية ما عدا :  (أ) الفسفرة التأكسدية  (ب) أكسدة البيروفيت  (ج) التحلل الغلايكولي  (د) حلقة كربس",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1260,
+    "cached_tokens": 1200,
+    "output_tokens": 2619,
+    "cost_usd": 0.016014,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "يتم إنتاج جزيئات الطاقة المعروفة باسم ATP خلال جميع المراحل الحيوية المذكورة في الخيارات التالية باستثناء مرحلة واحدة فقط، وهي: (أ) الفسفرة التأكسدية، (ب) أكسدة البيروفيت، (ج) التحلل الغلايكولي، (د) حلقة كربس."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30200150001",
+    "original sentence": "تنتج جزيئات ATP في جميع المراحل التالية ما عدا :  (أ) الفسفرة التأكسدية  (ب) أكسدة البيروفيت  (ج) التحلل الغلايكولي  (د) حلقة كربس",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1260,
+    "cached_tokens": 1200,
+    "output_tokens": 2619,
+    "cost_usd": 0.016014,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "تتكون جزيئات الطاقة ATP بشكل طبيعي في جميع الخطوات والمراحل الآتية، ويوجد خيار واحد فقط لا ينتج هذه الجزيئات، فما هو: (أ) الفسفرة التأكسدية، (ب) أكسدة البيروفيت، (ج) التحلل الغلايكولي، (د) حلقة كربس."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30200150001",
+    "original sentence": "تنتج جزيئات ATP في جميع المراحل التالية ما عدا :  (أ) الفسفرة التأكسدية  (ب) أكسدة البيروفيت  (ج) التحلل الغلايكولي  (د) حلقة كربس",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1260,
+    "cached_tokens": 1200,
+    "output_tokens": 2619,
+    "cost_usd": 0.016014,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "تمثل كل الخيارات المذكورة في الأسفل عمليات حيوية تساهم في إنتاج جزيئات ATP، ولكن هناك عملية واحدة تستثنى من ذلك، حددها مما يلي: (أ) الفسفرة التأكسدية، (ب) أكسدة البيروفيت، (ج) التحلل الغلايكولي، (د) حلقة كربس."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30700020005",
+    "original sentence": "4 وَبَنُو يَاوَانَ: أَلِيشَةُ وَتَرْشِيشُ وَكِتِّيمُ وَدُودَانِيمُ.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1239,
+    "cached_tokens": 1200,
+    "output_tokens": 4013,
+    "cost_usd": 0.024357,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "الرقم أربعة: إن الأبناء الذين أنجبهم ياوان، والذين يمثلون نسله المباشر، هم أربعة أشخاص تُعرف أسماؤهم كما يلي: أليشة، وترشيش، وكتيم، وأخيرا دودانيم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30700020005",
+    "original sentence": "4 وَبَنُو يَاوَانَ: أَلِيشَةُ وَتَرْشِيشُ وَكِتِّيمُ وَدُودَانِيمُ.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1239,
+    "cached_tokens": 1200,
+    "output_tokens": 4013,
+    "cost_usd": 0.024357,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "في الجزء المرقم بأربعة، نجد بيانا يوضح أن نسل ياوان يتكون من أبنائه الذين يحملون الأسماء التالية بالترتيب: أليشة، وترشيش، وكتيم، وكذلك دودانيم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30700020005",
+    "original sentence": "4 وَبَنُو يَاوَانَ: أَلِيشَةُ وَتَرْشِيشُ وَكِتِّيمُ وَدُودَانِيمُ.",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1239,
+    "cached_tokens": 1200,
+    "output_tokens": 4013,
+    "cost_usd": 0.024357,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "النص الوارد في الرقم أربعة يبين لنا بشكل صريح أن أبناء ياوان هم الأشخاص الأربعة الآتية أسماؤهم: أليشة، بالإضافة إلى ترشيش، وكتيم، ودودانيم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30900010044",
+    "original sentence": "ألاَّ رُبَّ خَصْمٍ فِيْكِ أَلْوَى رَدَدْتُهُ نَصِيْحٍ عَلَى تَعْذَالِهِ غَيْرِ مُؤْتَلِ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1251,
+    "cached_tokens": 1200,
+    "output_tokens": 2737,
+    "cost_usd": 0.016713,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "يا حبيبتي، لقد جاءني الكثير من الأشخاص الذين يجادلونني بشدة وبشكل عنيد بسبب حبي الشديد لك، وقد قمت برد كلامهم ورفض نصيحتهم، ورغم أن هذا الناصح كان صادقا ومخلصا ولم يقصر أبدا في توجيه اللوم المستمر لي، إلا أنني لم أستمع إليه."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30900010044",
+    "original sentence": "ألاَّ رُبَّ خَصْمٍ فِيْكِ أَلْوَى رَدَدْتُهُ نَصِيْحٍ عَلَى تَعْذَالِهِ غَيْرِ مُؤْتَلِ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1251,
+    "cached_tokens": 1200,
+    "output_tokens": 2737,
+    "cost_usd": 0.016713,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "لقد تصديت مرارا وتكرارا لكل من حاول مجادلتي ولومي بقسوة وعناد من أجل إبعادي عنك وعن حبي الكبير لك، ورغم أن هذا المجادل كان ناصحا مخلصا ولم يتوقف عن لومي وعتابي بكل طاقته، إلا أنني رددته ولم أقبل منه أي كلام."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30900010044",
+    "original sentence": "ألاَّ رُبَّ خَصْمٍ فِيْكِ أَلْوَى رَدَدْتُهُ نَصِيْحٍ عَلَى تَعْذَالِهِ غَيْرِ مُؤْتَلِ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1251,
+    "cached_tokens": 1200,
+    "output_tokens": 2737,
+    "cost_usd": 0.016713,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "كثيرا ما جادلني أشخاص يتصفون بالعناد والشدة في أمر حبي لك، فكنت أرفض كلامهم وأردهم بقوة، على الرغم من أن هذا الناصح كان مخلصا جدا في توجيه النصيحة لي ولم يدخر أي جهد في عتابي وتوبيخي المستمر لمحاولة إقناعي بالتخلي عنك."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30900070004",
+    "original sentence": "يَادَارَ عَبْلَـةَ بِالجَوَاءِ تَكَلَّمِي وَعِمِّي صَبَاحَاً دَارَ عَبْلَةَ وَاسْلَمِي",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1250,
+    "cached_tokens": 1200,
+    "output_tokens": 3137,
+    "cost_usd": 0.019112,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "يا دار حبيبتي عبلة الموجودة في منطقة الجواء، أرجو منك أن تتحدثي معي وتخبريني عن أحوالهم، وأتمنى لك صباحا جميلا وسعيدا يا دار عبلة، وأن تبقي سالمة من كل سوء وخراب على مر الزمان."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30900070004",
+    "original sentence": "يَادَارَ عَبْلَـةَ بِالجَوَاءِ تَكَلَّمِي وَعِمِّي صَبَاحَاً دَارَ عَبْلَةَ وَاسْلَمِي",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1250,
+    "cached_tokens": 1200,
+    "output_tokens": 3137,
+    "cost_usd": 0.019112,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "أيها المنزل الذي سكنته عبلة في أرض الجواء، أسألك أن تتحدث إلي وتخبرني أين ذهب أهلك، وأتمنى أن يكون صباحك مليئا بالخير والسرور يا منزل عبلة، وأن تسلم من الخراب والزوال."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30900070004",
+    "original sentence": "يَادَارَ عَبْلَـةَ بِالجَوَاءِ تَكَلَّمِي وَعِمِّي صَبَاحَاً دَارَ عَبْلَةَ وَاسْلَمِي",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1250,
+    "cached_tokens": 1200,
+    "output_tokens": 3137,
+    "cost_usd": 0.019112,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "يا منازل محبوبتي عبلة الكائنة في مكان يسمى الجواء، أرجوك أن تنطقي وتجيبي سؤالي، وأدعو لك بأن يكون صباحك طيبا ومباركا يا منازل عبلة، وبأن تظلي آمنة وسالمة من أي دمار طوال السنين."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30900070032",
+    "original sentence": "شَرِبَتْ بِمَاءِ الدُّحْرُضَيْنِ فَأَصْبَحَتْ زَوْرَاءَ تَنْفِرُ عَنْ حِيَاضِ الدَّيْلَـمِ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1253,
+    "cached_tokens": 1200,
+    "output_tokens": 5098,
+    "cost_usd": 0.030881,
+    "error": "",
+    "version": 1,
+    "simplified sentence": [
+      "لقد شربت من ماء الموضع المعروف باسم الدحرضين، وبسبب ذلك أصبحت مائلة ومبتعدة عن غيره، وصارت تنفر وتهرب من أحواض الماء الموجودة في مكان الديلم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30900070032",
+    "original sentence": "شَرِبَتْ بِمَاءِ الدُّحْرُضَيْنِ فَأَصْبَحَتْ زَوْرَاءَ تَنْفِرُ عَنْ حِيَاضِ الدَّيْلَـمِ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1253,
+    "cached_tokens": 1200,
+    "output_tokens": 5098,
+    "cost_usd": 0.030881,
+    "error": "",
+    "version": 2,
+    "simplified sentence": [
+      "بعد أن شربت من الماء الموجود في المكان الذي يسمى الدحرضين، مالت بجسدها مبتعدة، وصارت تنفر وتتجنب الاقتراب من أحواض الماء الموجودة في منطقة الديلم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  },
+  {
+    "ID": "30900070032",
+    "original sentence": "شَرِبَتْ بِمَاءِ الدُّحْرُضَيْنِ فَأَصْبَحَتْ زَوْرَاءَ تَنْفِرُ عَنْ حِيَاضِ الدَّيْلَـمِ",
+    "BAREC-19": "",
+    "BAREC-5": 5,
+    "gold reasons": "",
+    "simplified level": 4,
+    "prompt_tokens": 1253,
+    "cached_tokens": 1200,
+    "output_tokens": 5098,
+    "cost_usd": 0.030881,
+    "error": "",
+    "version": 3,
+    "simplified sentence": [
+      "إنها بعدما تناولت الماء من المكان المعروف باسم الدحرضين، مالت في مشيتها مبتعدة، وأصبحت ترفض بشدة وتهرب من الشرب من أحواض الماء المخصصة لمكان الديلم."
+    ],
+    "predicted reasons": [],
+    "was_split": false
+  }
+]

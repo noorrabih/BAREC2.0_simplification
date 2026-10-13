@@ -6,10 +6,13 @@ Rows submitted:       100
 Rows succeeded:       100
 Rows failed:          0
 ---------------------------------------------
-Total prompt tokens:  319,927
-Total output tokens:  775,289 (includes thinking tokens)
+Total prompt tokens:  336,092
+Total output tokens:  650,718 (includes thinking tokens)
 Rate (input/output):  $1.0/M -- $6.0/M
 ---------------------------------------------
-TOTAL COST:           $4.9717
-Avg. cost / sentence: $0.049717
+TOTAL COST:           $4.2404
+Avg. cost / sentence: $0.042404
 =============================================
+Note: pricing is hardcoded from Google's published rates and may be
+stale. Cross-check against your Google Cloud / AI Studio billing
+dashboard for the authoritative number.

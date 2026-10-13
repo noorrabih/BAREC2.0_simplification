@@ -1,0 +1,18 @@
+BAREC Batch Simplification -- Cost Report
+=============================================
+Model:                gpt-5.6-terra
+Mode:                 Batch API (async, 50% off interactive rate)
+Rows submitted:       100
+Rows succeeded:       100
+Rows failed:          0
+---------------------------------------------
+Total prompt tokens:  321,618
+Total output tokens:  306,793 (includes 264,360 reasoning tokens)
+Rate (input/output):  $1.0/M -- $6.0/M (Batch rate)
+---------------------------------------------
+TOTAL COST:           $2.1624
+Avg. cost / sentence: $0.021624
+=============================================
+Note: pricing is hardcoded from OpenAI's published rates and may be
+stale. Cross-check against your OpenAI platform billing dashboard for
+the authoritative number.

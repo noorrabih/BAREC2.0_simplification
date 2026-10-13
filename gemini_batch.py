@@ -1,9 +1,9 @@
 """
 BAREC Batch Simplification Runner
 ----------------------------------
-Reads a CSV of (id, sentence, source_band) rows, builds the
-correct
-BAREC system prompt for each band pair (via generate_prompt.py), submits
+Reads a CSV of (id, sentence, source_band) rows, picks the prebuilt
+BAREC system prompt for each band pair (written beforehand by
+generate_prompt_v2.py --out-dir), submits
 everything as ONE Gemini Batch API job (async, ~50% cheaper than the
 interactive API), polls until it finishes, then writes:
 
@@ -17,10 +17,16 @@ Requires an API key: set GEMINI_API_KEY (or pass --api-key)
 --------------------------------------------------------------------------
 USAGE
 --------------------------------------------------------------------------
+    # 1. Build the prompts once (one file per band pair):
+    python generate_prompt_v2.py --csv codes.csv \
+        --shots-csv valid_shots.csv --out-dir prompts/
+
+    # 2. Build and submit the batch using those prompts:
     python gemini_batch.py \
-        --input sentences.csv \
+        --input sentences_batch2.csv \
+        --prompts-dir prompts/ \
         --codes-csv codes.csv \
-        --output-dir results/ \
+        --output-dir gemini_v2_batch2_3x/ \
         --model gemini-3.1-pro-preview
 
 Input CSV columns (header required): id, sentence, readability band
@@ -58,6 +64,23 @@ returns per response:
     output_tokens  = usageMetadata.candidatesTokenCount
                       + usageMetadata.thoughtsTokenCount  (thinking tokens
                         are billed at the output rate, see Gemini docs)
+    cached_tokens  = usageMetadata.cachedContentTokenCount  (a subset of
+                      promptTokenCount, billed at the cached rate instead)
+
+--------------------------------------------------------------------------
+CONTEXT CACHING
+--------------------------------------------------------------------------
+There are only a handful of distinct system prompts (one per band pair), so
+by default each one is uploaded once as an explicit Gemini cache
+(client.caches.create) and every batch request references it via
+`cached_content` instead of repeating the system prompt inline. Caches are
+kept alive by extending their TTL while the job is polled, and deleted when
+the run ends. Pass --no-cache to send the system prompt inline instead.
+
+Explicit caches have a per-model minimum size (4,096 tokens for
+gemini-3.x, 2,048 for gemini-2.5-*). A prompt below the minimum can't be
+cached -- that band pair falls back to an inline system prompt, with a
+warning.
 """
 import argparse
 import csv
@@ -66,9 +89,9 @@ import sys
 import time
 from pathlib import Path
 
-# Reuse the prompt-building logic from generate_prompt.py (same folder)
+# Prompt file naming is shared with generate_prompt_v2.py (same folder)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from generate_prompt import load_rows, build_prompt
+from generate_prompt_v2 import load_rows, prompt_filename
 
 # ---------------------------------------------------------------------------
 # Pricing (USD per 1,000,000 tokens) -- Gemini Batch API, as of Aug 2026.
@@ -85,7 +108,10 @@ PRICING = {
         "output_std": 6.00,
         "input_long": 2.00,
         "output_long": 9.00,
+        "input_cached": 0.20, # $0.20, prompts <= 200k tokens
+        "cache_storage_per_hour": 4.50, # $4.50 / 1,000,000 tokens per hour (storage price)
     },
+    
     # Most recently GA-released model overall (Aug 13, 2026) -- Flash tier,
     # optimized for coding/agentic speed rather than deep reasoning.
     "gemini-3.7-flash": {
@@ -94,6 +120,8 @@ PRICING = {
         "output_std": 3.75,
         "input_long": None,
         "output_long": None,
+        "input_cached": None,  # unknown -- pass --price-cached
+        "cache_storage_per_hour": None,
     },
     "gemini-2.5-pro": {
         "threshold_tokens": 200_000,
@@ -101,6 +129,8 @@ PRICING = {
         "output_std": 5.00,
         "input_long": 1.25,
         "output_long": 7.50,
+        "input_cached": 0.125,
+        "cache_storage_per_hour": 4.50,
     },
     "gemini-2.5-flash": {
         "threshold_tokens": None,
@@ -108,11 +138,16 @@ PRICING = {
         "output_std": 1.25,
         "input_long": None,
         "output_long": None,
+        "input_cached": 0.03,
+        "cache_storage_per_hour": 1.00,
     },
 }
 
 
-def compute_cost(model, prompt_tokens, output_tokens):
+def compute_cost(model, prompt_tokens, output_tokens, cached_tokens=0):
+    """cached_tokens is the cached part of prompt_tokens (not extra to it).
+    Cached tokens are billed at the standard context-caching rate (no batch
+    discount); if that rate is unknown they're priced as normal input."""
     rates = PRICING.get(model)
     if rates is None:
         return None  # unknown model, can't price it
@@ -121,7 +156,13 @@ def compute_cost(model, prompt_tokens, output_tokens):
         in_rate, out_rate = rates["input_long"], rates["output_long"]
     else:
         in_rate, out_rate = rates["input_std"], rates["output_std"]
-    return (prompt_tokens / 1_000_000) * in_rate + (output_tokens / 1_000_000) * out_rate
+    cached_rate = rates.get("input_cached")
+    if cached_rate is None:
+        cached_rate = in_rate
+    uncached_tokens = prompt_tokens - cached_tokens
+    return ((uncached_tokens / 1_000_000) * in_rate
+            + (cached_tokens / 1_000_000) * cached_rate
+            + (output_tokens / 1_000_000) * out_rate)
 
 
 # ---------------------------------------------------------------------------
@@ -289,44 +330,135 @@ def supports_temperature_override(model):
 
 
 # ---------------------------------------------------------------------------
-# Step 2: build one JSONL batch-input file, caching the system prompt per
-# (source_band, target_band) pair so we don't regenerate it per row.
+# Step 2: build one JSONL batch-input file, using the prebuilt system prompt
+# for each row's (source_band, target_band) pair from --prompts-dir.
 # ---------------------------------------------------------------------------
-def build_batch_jsonl(rows, codes_csv_path, jsonl_path, model, temperature=None, num_versions=1):
-    guideline_rows = load_rows(codes_csv_path)
-    prompt_cache = {}
+def load_prompts(prompts_dir, pairs):
+    """Reads prompt_<src>_to_<tgt>.txt for every pair; exits listing any
+    that are missing rather than submitting a partial batch."""
+    prompts, missing = {}, []
+    for pair in sorted(pairs):
+        path = Path(prompts_dir) / prompt_filename(*pair)
+        if not path.is_file():
+            missing.append(str(path))
+            continue
+        prompts[pair] = path.read_text(encoding="utf-8")
+    if missing:
+        print("Missing prompt file(s) -- build them with generate_prompt_v2.py --out-dir:\n  "
+              + "\n  ".join(missing), file=sys.stderr)
+        sys.exit(1)
+    return prompts
 
+
+def build_batch_jsonl(rows, prompts, jsonl_path, model, temperature=None, cache_names=None):
+    """cache_names maps band pair -> cachedContents/... name. Pairs with a
+    cache reference it (the system prompt lives in the cache -- Gemini
+    rejects a request that sets both); the rest send the prompt inline."""
+    cache_names = cache_names or {}
     with open(jsonl_path, "w", encoding="utf-8") as f:
         for row in rows:
             pair = (row["source_band"], row["target_band"])
-            if pair not in prompt_cache:
-                prompt_cache[pair] = build_prompt(guideline_rows, pair[0], pair[1], num_versions=num_versions)
-            system_prompt = prompt_cache[pair]
 
             generation_config = {"response_mime_type": "application/json"}
             if temperature is not None and supports_temperature_override(model):
                 generation_config["temperature"] = temperature
 
-            request_obj = {
-                "key": row["row_id"],
-                "request": {
-                    "contents": [{
-                        "role": "user",
-                        "parts": [{"text": row["sentence"]}],
-                    }],
-                    "system_instruction": {"parts": [{"text": system_prompt}]},
-                    "generation_config": generation_config,
-                },
+            request = {
+                "contents": [{
+                    "role": "user",
+                    "parts": [{"text": row["sentence"]}],
+                }],
+                "generation_config": generation_config,
             }
+            if pair in cache_names:
+                request["cached_content"] = cache_names[pair]
+            else:
+                request["system_instruction"] = {"parts": [{"text": prompts[pair]}]}
+
+            request_obj = {"key": row["row_id"], "request": request}
             f.write(json.dumps(request_obj, ensure_ascii=False) + "\n")
 
-    return prompt_cache
+
+# ---------------------------------------------------------------------------
+# Context caching: one explicit cache per band pair's system prompt
+# ---------------------------------------------------------------------------
+class PromptCaches:
+    """Creates one cache per system prompt, extends their TTL while the batch
+    runs (so a short TTL is enough no matter how long the job queues), and
+    deletes them at the end. Tracks token counts/lifetime for the storage
+    cost estimate."""
+
+    def __init__(self, client, model, ttl_seconds):
+        self.client = client
+        self.model = model
+        self.ttl_seconds = ttl_seconds
+        self.names = {}         # pair -> cachedContents/...
+        self.token_counts = {}  # pair -> tokens held in the cache
+        self.created_at = None
+        self.deleted_at = None
+        self._last_extend = None
+
+    def create(self, prompts, display_name):
+        from google.genai import types
+
+        for pair, text in sorted(prompts.items()):
+            try:
+                cache = self.client.caches.create(
+                    model=self.model,
+                    config=types.CreateCachedContentConfig(
+                        display_name=f"{display_name}-{pair[0]}to{pair[1]}",
+                        system_instruction=text,
+                        ttl=f"{self.ttl_seconds}s",
+                    ),
+                )
+            except Exception as e:
+                print(f"  could not cache prompt {pair[0]}->{pair[1]} ({e}); "
+                      f"sending it inline instead", file=sys.stderr)
+                continue
+            self.names[pair] = cache.name
+            tokens = getattr(cache.usage_metadata, "total_token_count", None) or 0
+            self.token_counts[pair] = tokens
+            print(f"  cached prompt {pair[0]}->{pair[1]}: {cache.name} ({tokens:,} tokens)")
+        if self.names:
+            self.created_at = self._last_extend = time.time()
+        return self.names
+
+    def keep_alive(self):
+        """Push expiry out by another full TTL once half of it has elapsed."""
+        if not self.names or time.time() - self._last_extend < self.ttl_seconds / 2:
+            return
+        from google.genai import types
+
+        for name in self.names.values():
+            self.client.caches.update(
+                name=name, config=types.UpdateCachedContentConfig(ttl=f"{self.ttl_seconds}s"))
+        self._last_extend = time.time()
+        print(f"  extended cache TTL by {self.ttl_seconds}s")
+
+    def delete(self):
+        for name in self.names.values():
+            try:
+                self.client.caches.delete(name=name)
+            except Exception as e:
+                print(f"  could not delete cache {name}: {e} (it expires on its own)",
+                      file=sys.stderr)
+        if self.names:
+            self.deleted_at = time.time()
+            print(f"Deleted {len(self.names)} cache(s).")
+
+    def storage_cost(self):
+        """Estimated storage charge: tokens x hours alive x hourly rate."""
+        rate = PRICING.get(self.model, {}).get("cache_storage_per_hour")
+        if not self.names or rate is None:
+            return None
+        hours = ((self.deleted_at or time.time()) - self.created_at) / 3600
+        return sum(self.token_counts.values()) / 1_000_000 * hours * rate
 
 
 # ---------------------------------------------------------------------------
 # Step 3-5: submit, poll, download
 # ---------------------------------------------------------------------------
-def run_batch_job(client, model, jsonl_path, display_name, poll_interval):
+def run_batch_job(client, model, jsonl_path, display_name, poll_interval, caches=None):
     from google.genai import types
 
     print(f"Uploading {jsonl_path} ...")
@@ -352,6 +484,8 @@ def run_batch_job(client, model, jsonl_path, display_name, poll_interval):
     while batch_job.state.name not in completed_states:
         print(f"  status: {batch_job.state.name} -- waiting {poll_interval}s ...")
         time.sleep(poll_interval)
+        if caches is not None:
+            caches.keep_alive()
         batch_job = client.batches.get(name=job.name)
 
     print(f"Job finished: {batch_job.state.name}")
@@ -368,7 +502,8 @@ def run_batch_job(client, model, jsonl_path, display_name, poll_interval):
 # ---------------------------------------------------------------------------
 # Step 6: parse results, merge with input rows, compute cost, write outputs
 # ---------------------------------------------------------------------------
-def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path):
+def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path,
+                     cache_storage_cost=None):
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     guideline_rows = load_rows(codes_csv_path)
@@ -376,6 +511,7 @@ def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path):
 
     results = []
     total_prompt_tokens = 0
+    total_cached_tokens = 0
     total_output_tokens = 0
     total_cost = 0.0
     n_errors = 0
@@ -398,6 +534,7 @@ def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path):
             "was_split": "",
             "features_used": "",
             "prompt_tokens": 0,
+            "cached_tokens": 0,
             "output_tokens": 0,
             "cost_usd": 0.0,
             "error": "",
@@ -412,12 +549,14 @@ def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path):
         response = obj.get("response", {})
         usage = response.get("usageMetadata", {})
         prompt_tokens = usage.get("promptTokenCount", 0)
+        cached_tokens = usage.get("cachedContentTokenCount", 0)
         # thinking tokens are billed at the output rate -- include them
         output_tokens = usage.get("candidatesTokenCount", 0) + usage.get("thoughtsTokenCount", 0)
 
-        cost = compute_cost(model, prompt_tokens, output_tokens)
+        cost = compute_cost(model, prompt_tokens, output_tokens, cached_tokens)
 
         total_prompt_tokens += prompt_tokens
+        total_cached_tokens += cached_tokens
         total_output_tokens += output_tokens
         if cost is not None:
             total_cost += cost
@@ -473,6 +612,7 @@ def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path):
             out_row["_features_list"] = []
 
         out_row["prompt_tokens"] = prompt_tokens
+        out_row["cached_tokens"] = cached_tokens
         out_row["output_tokens"] = output_tokens
         out_row["cost_usd"] = round(cost, 6) if cost is not None else ""
 
@@ -491,6 +631,7 @@ def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path):
             "gold reasons": r["gold_reasons"],
             "simplified level": r["target_band"],
             "prompt_tokens": r["prompt_tokens"],
+            "cached_tokens": r["cached_tokens"],
             "output_tokens": r["output_tokens"],
             "cost_usd": r["cost_usd"],
             "error": r["error"],
@@ -521,7 +662,8 @@ def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path):
 
     fieldnames = ["ID", "version", "original sentence", "BAREC-19", "BAREC-5", "gold reasons",
                   "simplified sentence", "predicted reasons", "was_split",
-                  "simplified level", "prompt_tokens", "output_tokens", "cost_usd", "error"]
+                  "simplified level", "prompt_tokens", "cached_tokens", "output_tokens",
+                  "cost_usd", "error"]
 
     # --- write results.csv ---
     results_path = output_dir / "results.csv"
@@ -540,6 +682,9 @@ def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path):
 
     # --- write cost_report.txt ---
     n_ok = len(results) - n_errors
+    request_cost = total_cost
+    if cache_storage_cost is not None:
+        total_cost += cache_storage_cost
     report_path = output_dir / "cost_report.txt"
     rates = PRICING.get(model, {})
     with open(report_path, "w", encoding="utf-8") as f:
@@ -552,9 +697,14 @@ def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path):
         f.write(f"Rows failed:          {n_errors}\n")
         f.write("-" * 45 + "\n")
         f.write(f"Total prompt tokens:  {total_prompt_tokens:,}\n")
+        f.write(f"  of which cached:    {total_cached_tokens:,}\n")
         f.write(f"Total output tokens:  {total_output_tokens:,} (includes thinking tokens)\n")
         f.write(f"Rate (input/output):  ${rates.get('input_std', '?')}/M -- ${rates.get('output_std', '?')}/M\n")
+        f.write(f"Rate (cached input):  ${rates.get('input_cached', '?')}/M\n")
         f.write("-" * 45 + "\n")
+        f.write(f"Request cost:         ${request_cost:.4f}\n")
+        if cache_storage_cost is not None:
+            f.write(f"Cache storage (est.): ${cache_storage_cost:.4f}\n")
         f.write(f"TOTAL COST:           ${total_cost:.4f}\n")
         if n_ok:
             f.write(f"Avg. cost / sentence: ${total_cost / n_ok:.6f}\n")
@@ -573,6 +723,9 @@ def parse_and_report(rows_by_id, jsonl_text, model, output_dir, codes_csv_path):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--input", required=True, help="CSV with columns: id, sentence, source_band, target_band")
+    ap.add_argument("--prompts-dir", required=True,
+                     help="Directory of prebuilt prompt_<src>_to_<tgt>.txt files "
+                          "(from generate_prompt_v2.py --out-dir)")
     ap.add_argument("--codes-csv", required=True, help="Path to the BAREC codes/guidelines csv file")
     ap.add_argument("--annotations-csv", default=None,
                      help="Optional gold-annotation CSV (e.g. annotation_reasoning_codes_RC.csv) "
@@ -585,23 +738,27 @@ def main():
     ap.add_argument("--display-name", default="barec-simplification-batch")
     ap.add_argument("--price-input", type=float, default=None, help="Override $/M input tokens for this run")
     ap.add_argument("--price-output", type=float, default=None, help="Override $/M output tokens for this run")
+    ap.add_argument("--price-cached", type=float, default=None, help="Override $/M cached input tokens for this run")
+    ap.add_argument("--no-cache", action="store_true",
+                     help="Send each system prompt inline instead of via an explicit context cache")
+    ap.add_argument("--cache-ttl", type=int, default=3600,
+                     help="Cache TTL in seconds; extended automatically while the job runs")
     ap.add_argument("--temperature", type=float, default=0.3,
                      help="Sampling temperature. Ignored for Gemini 3.x models "
                           "(gemini-3.*) per Google's guidance -- those models "
                           "should be left at their default and steered via the "
                           "system instruction instead.")
     ap.add_argument("--dry-run", action="store_true", help="Build the JSONL and print stats, but don't call the API")
-    ap.add_argument("--num-versions", type=int, default=1,
-                     help="Number of independent simplified versions (each with its own "
-                          "reasons/features) to request per sentence. Default 1.")
     args = ap.parse_args()
 
-    if args.price_input is not None or args.price_output is not None:
+    if args.price_input is not None or args.price_output is not None or args.price_cached is not None:
         PRICING.setdefault(args.model, {"threshold_tokens": None, "input_long": None, "output_long": None})
         if args.price_input is not None:
             PRICING[args.model]["input_std"] = args.price_input
         if args.price_output is not None:
             PRICING[args.model]["output_std"] = args.price_output
+        if args.price_cached is not None:
+            PRICING[args.model]["input_cached"] = args.price_cached
 
     rows = load_input_rows(args.input)
     if not rows:
@@ -612,30 +769,48 @@ def main():
         by_id, by_sentence = load_annotations(args.annotations_csv)
         apply_annotations(rows, by_id, by_sentence)
     rows_by_id = {r["row_id"]: r for r in rows}
-    print(f"Loaded {len(rows)} sentences across "
-          f"{len({(r['source_band'], r['target_band']) for r in rows})} band pair(s).")
+    pairs = {(r["source_band"], r["target_band"]) for r in rows}
+    print(f"Loaded {len(rows)} sentences across {len(pairs)} band pair(s).")
+    prompts = load_prompts(args.prompts_dir, pairs)
 
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     jsonl_path = output_dir / "batch_requests.jsonl"
-    build_batch_jsonl(rows, args.codes_csv, jsonl_path, args.model, num_versions=args.num_versions)
-    print(f"Wrote batch request file: {jsonl_path}")
 
     if args.dry_run:
-        print("Dry run: skipping API call. Inspect the JSONL file above before submitting for real.")
+        build_batch_jsonl(rows, prompts, jsonl_path, args.model)
+        print(f"Wrote batch request file: {jsonl_path}")
+        print("Dry run: skipping API call (and cache creation -- prompts are inline). "
+              "Inspect the JSONL file above before submitting for real.")
         return
 
     from google import genai
     client = genai.Client(api_key=args.api_key) if args.api_key else genai.Client()
 
-    result_text = run_batch_job(client, args.model, jsonl_path, args.display_name, args.poll_interval)
+    caches = None
+    cache_names = {}
+    if not args.no_cache:
+        print(f"Creating context caches for {len(prompts)} system prompt(s) ...")
+        caches = PromptCaches(client, args.model, args.cache_ttl)
+        cache_names = caches.create(prompts, args.display_name)
+
+    try:
+        build_batch_jsonl(rows, prompts, jsonl_path, args.model, cache_names=cache_names)
+        print(f"Wrote batch request file: {jsonl_path} "
+              f"({len(cache_names)}/{len(prompts)} prompt(s) via cache)")
+        result_text = run_batch_job(client, args.model, jsonl_path, args.display_name,
+                                    args.poll_interval, caches)
+    finally:
+        if caches is not None:
+            caches.delete()
 
     raw_results_path = output_dir / "batch_results_raw.jsonl"
     with open(raw_results_path, "w", encoding="utf-8") as f:
         f.write(result_text)
     print(f"Wrote raw batch results: {raw_results_path}")
 
-    parse_and_report(rows_by_id, result_text, args.model, output_dir, args.codes_csv)
+    parse_and_report(rows_by_id, result_text, args.model, output_dir, args.codes_csv,
+                     caches.storage_cost() if caches is not None else None)
 
 
 if __name__ == "__main__":

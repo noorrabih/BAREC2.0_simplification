@@ -25,7 +25,7 @@ BANDS = {
 }
 
 CATEGORY_NAMES = {
-    "O": "Orthographic / Word Length (Syllables)",
+    "O": "Orthographic",
     "W": "Sentence Length (Word Count)",
     "M": "Morphology (Verb Conjugation, Pronouns, Prefixes & Suffixes)",
     "S": "Syntax (Sentence Structure)",

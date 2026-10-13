@@ -1,0 +1,22 @@
+BAREC Batch Simplification -- Cost Report
+=============================================
+Model:                gemini-3.1-pro-preview
+Mode:                 Batch API (async, 50% off interactive rate)
+Rows submitted:       100
+Rows succeeded:       100
+Rows failed:          0
+---------------------------------------------
+Total prompt tokens:  216,292
+  of which cached:    212,700
+Total output tokens:  439,829 (includes thinking tokens)
+Rate (input/output):  $1.0/M -- $6.0/M
+Rate (cached input):  $0.2/M
+---------------------------------------------
+Request cost:         $2.6851
+Cache storage (est.): $0.0158
+TOTAL COST:           $2.7009
+Avg. cost / sentence: $0.027009
+=============================================
+Note: pricing is hardcoded from Google's published rates and may be
+stale. Cross-check against your Google Cloud / AI Studio billing
+dashboard for the authoritative number.

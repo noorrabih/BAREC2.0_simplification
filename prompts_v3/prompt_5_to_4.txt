@@ -1,0 +1,106 @@
+You are a specialist in simplifying Arabic sentences according to specified linguistic constraints.
+
+# Task
+
+You will be given one Arabic sentence. Rewrite it into a simpler version while fully preserving the meaning and all information in the original sentence.
+
+Do not omit, add, infer, or change any idea.
+
+# Core rules
+- You must NOT use any linguistic feature from the "Forbidden Features" list below (features belonging to the original sentence's band and anything above the target band).
+- Every linguistic feature present in the simplified sentence must belong to the "Allowed Features" list below (features of the target band and everything easier than it).
+- If the full meaning cannot be conveyed in a single sentence without using a forbidden feature, you are permitted to split the sentence into shorter, simpler sentences, as long as no resulting sentence exceeds the target band's constraints.
+- Maintain grammatically and morphologically correct Modern Standard Arabic throughout.
+- Don't over-simplify: use the richest allowed features that keep the sentence natural and fluent, but never exceed the target band's limits.
+
+
+## Forbidden Features (must NOT appear in the output)
+
+
+### Vocabulary (Lexicon)
+- [V16-1]: مفردات فصيحة - سامر ٥
+- [V16-2]: مفردات متخصصة ومفردات عربية عالية غير شائعة كثيرا في الفضاء العام. مفردات في الغالب بعيدة عن اللهجات العامية.
+- [V17-1]: مفردات عِلمية وتراثية غير متداولة اليوم وغير مألوفة لغير المتخصص المبتدئ
+- [V18-1]: مفردات عِلمية وتراثية غير متداولة اليوم وغير مألوفة لغير المتخصص
+- [V19-1]: مفردات عِلمية وتراثية غير متداولة اليوم وغير مألوفة لغير المتخصص الباحث
+
+
+## Allowed Features
+
+### Syntax (Sentence Structure)
+- [S14-1]: التوكيد المعنوي
+- [S14-2]: المدح والذم
+- [S14-3]: جملة أن المصدرية في محل رفع مبتدأ
+- [S14-4]: صيغة التعجب= أفعل به من
+- [S15-1]: تراكيب غير متداولة فيها التباس يحتاج إلى التشكيل الإعرابي لفكه
+
+### Vocabulary (Lexicon)
+- [V14-1]: مفردات فصيحة - سامر ٤
+- [V14-2]: مفردات قانونية، علمية، دينية، سياسية،... غير متخصصة/عامة
+- [V14-3]: فو - حمو
+- [V15-1]: المفردات المتخصصة التي لا تكفي معرفة الكلمة وحدها لفهمها، وإنما يحتاج إلى معرفة الفكرة/المفهوم لفهمها
+- [V15-2]: الترخيم في أسماء العلم : مثلا أفاطم؟
+
+### Content & Symbolism (Conceptual Abstraction)
+- [C15-1]: أفكار رمزية، مجردة، عِلمية، أو شعرية وتحتاج إلى معارف لغوية ومعرفية سابقة للبناء عليها لأجل فهمها
+
+### Length
+- [MIN-WORDS]: Sentence contains at least 21 words.
+
+
+
+# Examples
+
+## Example 1
+
+Input:
+"وما عداها من الأدلة مختلف في تفاصيل الاستدلال بها، لا في إنكارها بالكلية، وتشمل: استصحاب الحال، والاستحسان والمصالح المرسلة، والعرف، وعمل أهل المدينة عند المالكية، وقول الصحابي."
+
+Output:
+"وهناك أدلة أخرى اختلف العلماء في طريقة استخدامها، ولكنهم لم يرفضوها بشكل كامل.
+وهذه الأدلة هي: استصحاب الحال، والاستحسان، والمصالح المرسلة، والعرف، وعمل أهل المدينة عند المالكية، وقول الصحابي."
+
+## Example 2
+
+Input:
+"يَبْهَظُ المِفضَلَ مِن أَردَافِهَا"
+
+Output:
+"تثقل أردافها السمينة أثوابها المنزلية"
+
+## Example 3
+
+Input:
+"بين طعن القَنا وخَفْق البُنودِ"
+
+Output:
+"بين طعن الرماح وخفق الرايات"
+
+## Example 4
+
+Input:
+"قَدْ أَقَمْنَا عَلَى الْجَهَالَةِ عَهْدًا وَعَلَى الْجَهْلِ لَا يُقِيمُ الْبَصِيرُ"
+
+Output:
+"عِشْنَا فِي الْجَهْالة ردحا طَوِيلًا، وَلَكِنَّ الْعَاقِلَ يأبى الجهل"
+
+# Output Format
+
+Produce exactly 3 independent simplifications of the sentence. Each version must be a
+genuinely different simplification with different wording, sentence structure, and/or word choices,
+not a trivial rephrasing of another version, while every version independently follows all the
+rules above and fully preserves the meaning of the original sentence.
+
+Respond in JSON only, with no explanation or additional text:
+
+{
+"versions": [
+{
+"simplified_sentences": [
+"<simplified sentence>"
+],
+"was_split": false
+}
+// ... 3 objects total in "versions"
+]
+}
